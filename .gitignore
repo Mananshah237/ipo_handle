@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+public/data/
+*.tsbuildinfo
+__pycache__/
+.env*
+!.env.example
+coverage/

@@ -8,6 +8,8 @@ Ticket 9 (checker skeleton): `lib/allotment/` holds the adapter interface, mock 
 
 Ticket 10 (owner task, then adapters): perform one real MUFG Intime and one real KFin lookup in Safari DevTools with an applied PAN. Capture for each: endpoint URLs in call order, HTTP methods, request bodies, request headers, cookies set along the way, any CSRF/session token flow (which call issues it, where it must be echoed), and the exact response shape for allotted / not allotted / not found. Sanitise the PAN and any personal values before handing the capture over. Adapters then slot into `lib/allotment/adapters.ts` behind the existing interface.
 
+Ticket 11 (detail panel layout): the daily GMP values, the tracker list and the QIB/NII/Retail block are CSS grid rows, not tables — no `<table>` remains inside `IPOCard`. Daily rows are `4.5rem 1fr auto` ("12 Sept ₹1,325 ₹1,250–₹1,400" on one line), ranges use an unspaced en dash so they cannot break mid-value, and `font-variant-numeric: tabular-nums` aligns digits in all three blocks. `GMPChart` shows the 7 most recent days with a "Show all N days" toggle that expands in place, so it is now a client component.
+
 Repository was empty. Ruflo/ToolSearch capabilities were searched for but are unavailable in this session.
 
 ## Fixture inspection
@@ -19,5 +21,7 @@ Live API fetched directly on 2026-09-12 IST; upstream generated_at: 2026-09-12T0
 Windows sandbox blocks child build/test workers and Python temporary folder access; approved local runs were used for those checks. No runtime backend or secrets were introduced.
 
 Browser QA caught an ambiguous upstream name: `median_pct` is a graphic marker position, not GMP %. Normalization uses `est_listing_pct`, verified against median/upper price and covered by a regression assertion.
+
+Ticket 11 was measured in headless Edge at true 320 px and 390 px viewports (the page under test in a fixed-width iframe, since headless Edge clamps its own window to 504 px). At both widths `documentElement.scrollWidth` equals `innerWidth`, every date, median, range, tracker value and subscription multiple is a single unclipped line, and each daily row is 39 px. Long tracker *names* still wrap, which is intended; numeric values never do.
 
 Final verification: production static export passes, ESLint passes, TypeScript passes. Browser QA at 390 x 844 verified readable layout, open filtering, search, corrected GMP percentage, expanded SVG history and tracker values. With the local HTTP server stopped, both routes loaded from the service worker and allotment search remained interactive. Actual phone installation and hosted CDN behavior remain deployment checks.

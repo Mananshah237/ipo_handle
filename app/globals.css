@@ -17,7 +17,7 @@ dt,.eyebrow,.freshness,.refresh,.range,.range span,.caption,footer,.list-count,.
 .market-table .company-button{border:0;background:transparent;border-radius:5px;font-size:14px;padding:4px 0;justify-content:space-between;gap:12px;width:100%;text-align:left;line-height:1.4;overflow-wrap:anywhere}
 .company-name{display:block;font-size:14px;line-height:1.4;overflow-wrap:anywhere}.company-meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center;font-size:11px;color:var(--muted);font-weight:400;margin-top:6px}
 .market-table small{display:block;font-size:12px;color:var(--muted);margin-top:4px}.market-table strong{font-variant-numeric:tabular-nums}.market-table .wrap-cell{white-space:normal;min-width:180px;max-width:260px;overflow-wrap:anywhere}
-.table-detail-row>td{padding:16px;background:#f7f8f3}.table-detail{position:sticky;left:16px;width:min(520px,calc(100vw - 72px));white-space:normal}.table-detail .ipo-card{box-shadow:none}.table-detail .ipo-card table{white-space:normal}.table-detail .ipo-card th,.table-detail .ipo-card td{padding:7px 3px}
+.table-detail-row>td{padding:16px;background:#f7f8f3}.table-detail{position:sticky;left:16px;width:min(520px,calc(100vw - 72px));white-space:normal}.table-detail .ipo-card{box-shadow:none}
 @media(prefers-reduced-motion:no-preference){.market-table-row{animation:table-row-in .22s both}@keyframes table-row-in{from{opacity:0}to{opacity:1}}}
 @media(min-width:1000px){main{max-width:1280px}.table-detail{width:520px}.table-hint{font-size:13px}}
 
@@ -32,3 +32,21 @@ dt,.eyebrow,.freshness,.refresh,.range,.range span,.caption,footer,.list-count,.
 .allot-expected{font-size:12px;color:var(--muted);margin:6px 0 0}
 .check-everyone{margin-top:8px}
 .notice.banner{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.notice.banner .check-button{margin:0}
+
+/* Ticket 11: grid rows replace the nested tables in the details panel. Fixed tracks
+   plus tabular digits keep one value per line and one column of digits at 320px. */
+.daily-gmp{list-style:none;margin:14px 0 0;padding:0;font-variant-numeric:tabular-nums}
+.daily-gmp li{display:grid;grid-template-columns:4.5rem 1fr auto;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px solid var(--line)}
+.daily-gmp li:last-child{border-bottom:0}
+.daily-date,.daily-range{font-size:.8125rem;color:var(--muted);white-space:nowrap}
+.daily-range{text-align:right}
+.daily-median{font-weight:600;white-space:nowrap}
+.daily-toggle{min-height:40px;font-size:12px;padding:8px 12px;margin-top:10px}
+.trackers li{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:0;border-bottom:1px solid var(--line)}
+.trackers li:last-child{border-bottom:0}
+.trackers strong{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.subscription{display:block;padding:6px 0}
+.subscription>div{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:12px;padding:9px 0;border-bottom:1px solid #edf0e9}
+.subscription>div:last-child{border-bottom:0}
+.subscription dt{margin:0}
+.subscription dd{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}

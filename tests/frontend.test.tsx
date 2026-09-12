@@ -21,6 +21,17 @@ describe('market UI', () => {
     expect(document.querySelector('svg polyline')).toBeTruthy();
     expect(screen.getByText('GMP %')).toBeTruthy();
   });
+  it('lays the detail panel out as grid rows, not tables', () => {
+    const history = Array.from({ length: 9 }, (_, i) => ({ date: `2026-09-${String(i + 1).padStart(2, '0')}`, median: 30 + i, min: 12 + i, max: 30 + i }));
+    const { container } = render(<IPOCard ipo={{ id: 'grid', name: 'Grid IPO', gmp: 38, priceMax: 100, history, subscription: { qib: 2.5, nii: 4, retail: 8, total: 5 }, trackers: [{ name: 'Tracker A', gmp: 30, url: 'https://example.com' }, { name: 'Tracker B', gmp: 28 }] }} state={emptyState()} onApplied={() => {}}/>);
+    expect(container.querySelector('table')).toBeNull();
+    expect(container.querySelectorAll('.daily-gmp li')).toHaveLength(7);
+    expect(screen.getByText('₹20–₹38')).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: 'Show all 9 days' }));
+    expect(container.querySelectorAll('.daily-gmp li')).toHaveLength(9);
+    expect(container.querySelectorAll('.trackers li')).toHaveLength(2);
+    expect(container.querySelectorAll('.subscription>div')).toHaveLength(4);
+  });
   it('degrades gracefully without optional fields', () => {
     render(<IPOCard ipo={{ id: 'minimal', name: 'Minimal' }} state={emptyState()} onApplied={() => {}}/>);
     expect(screen.getByText('Daily GMP history is not available yet.')).toBeTruthy();

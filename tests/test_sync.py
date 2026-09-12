@@ -31,6 +31,14 @@ class SyncTests(unittest.TestCase):
             with self.assertRaises((ValueError, TypeError)):
                 sync.normalize(data)
 
+    def test_boa_date_formats(self):
+        # boa_date is null upstream today; when it arrives it must parse in every observed format.
+        for raw in ('2026-09-16', '16 Sep 2026', '16-Sep-2026', '16 Sept 2026', '16 September 2026'):
+            data = sync.normalize({'generated_at': '2026-09-12T00:00:00Z', 'ipos': [{'slug': 'sample', 'name': 'Sample', 'boa_date': raw}]})
+            self.assertEqual(data['ipos'][0]['allotmentDate'], '2026-09-16')
+        data = sync.normalize({'generated_at': '2026-09-12T00:00:00Z', 'ipos': [{'slug': 'sample', 'name': 'Sample', 'boa_date': None}]})
+        self.assertNotIn('allotmentDate', data['ipos'][0])
+
     def test_hash(self):
         raw = json.loads(RAW)
         before = sync.meaningful_hash(sync.normalize(raw))

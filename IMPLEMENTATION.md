@@ -1,6 +1,13 @@
 # Implementation
 Tickets 0–7 implemented: live schema; safe sync/tests; mobile list; family manager; applications/backups; GMP detail; action; PWA. Ticket 8 completed: verification and documentation.
 
+## Stage 2 tickets
+Ticket 8 (dates & registrars): upstream `boa_date` is mapped but null for all 36 IPOs (verified against the live API on 2026-09-12), so `allotmentInfo` in `lib/data.ts` estimates the next working day after close, labeled "est." everywhere it renders. The Python date parser now also accepts "Sept"/"September" so real boa_dates parse on arrival. Registrar names normalize to ids in `lib/registrars.ts`; matching never uses display names.
+
+Ticket 9 (checker skeleton): `lib/allotment/` holds the adapter interface, mock adapter (enable with ALLOTMENT_MOCK=1 on Vercel), request handler, browser client and localStorage results store; `api/allotment.ts` is the stateless Vercel function (bom1 via vercel.json); `components/AllotmentCheck.tsx` renders per-member Check/Re-check once today ≥ allotment date, "Check everyone" sequentially 1s apart, a pending-checks banner on the allotments page, and the deep link + Copy PAN fallback for manual registrars and errors.
+
+Ticket 10 (owner task, then adapters): perform one real MUFG Intime and one real KFin lookup in Safari DevTools with an applied PAN. Capture for each: endpoint URLs in call order, HTTP methods, request bodies, request headers, cookies set along the way, any CSRF/session token flow (which call issues it, where it must be echoed), and the exact response shape for allotted / not allotted / not found. Sanitise the PAN and any personal values before handing the capture over. Adapters then slot into `lib/allotment/adapters.ts` behind the existing interface.
+
 Repository was empty. Ruflo/ToolSearch capabilities were searched for but are unavailable in this session.
 
 ## Fixture inspection

@@ -1,11 +1,15 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
 import initial from '../data/latest.json';
-import { parseMarket, status, formatDate, safeUrl } from '../lib/data';
+import { allotmentInfo, istDay, parseMarket, status } from '../lib/data';
 import { emptyState, loadState, saveState } from '../lib/family';
 import { setApplied } from '../lib/applications';
-import type { LocalState } from '../lib/types';
-import IPOCard from './IPOCard';
+import { emptyResults, loadResults, saveResults, setResult } from '../lib/allotment/results';
+import { requestCheck, wait } from '../lib/allotment/client';
+import type { AllotmentStore, StoredResult } from '../lib/allotment/types';
+import { autoCheckable, registrarId } from '../lib/registrars';
+import type { FamilyMember, IPO, LocalState } from '../lib/types';
+import IPOTable from './IPOTable';
 import FamilyManager from './FamilyManager';
 import DataFreshness from './DataFreshness';
 export default function Dashboard({ allotments = false }: { allotments?: boolean }) {
@@ -13,6 +17,8 @@ export default function Dashboard({ allotments = false }: { allotments?: boolean
   // Deterministic first render avoids hydration mismatch when an exported page crosses midnight.
   const [today, setToday] = useState(initial.generatedAt);
   const [state, setState] = useState<LocalState>(emptyState);
+  const [results, setResults] = useState<AllotmentStore>(emptyResults);
+  const [checkingAll, setCheckingAll] = useState(false);
   const [ready, setReady] = useState(false), [storageError, setStorageError] = useState(''), [networkError, setNetworkError] = useState('');
   const [filter, setFilter] = useState('All'), [search, setSearch] = useState(''), [refreshing, setRefreshing] = useState(false);
   const refresh = useCallback(async () => {
@@ -24,6 +30,7 @@ export default function Dashboard({ allotments = false }: { allotments?: boolean
   }, []);
   useEffect(() => {
     try { setState(loadState(localStorage)); } catch { setStorageError('Device data could not be read. Existing storage has been kept. Import a backup to recover, or check browser storage permissions.'); }
+    setResults(loadResults(localStorage));
     setReady(true);
     void refresh();
     if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') navigator.serviceWorker.register('/sw.js').catch(() => setNetworkError('Offline installation is unavailable. You can still use the app online.'));
@@ -34,9 +41,34 @@ export default function Dashboard({ allotments = false }: { allotments?: boolean
     return () => { clearInterval(timer); window.removeEventListener('online', refresh); window.removeEventListener('storage', sync); document.removeEventListener('visibilitychange', visible); };
   }, [refresh]);
   function change(next: LocalState) { try { saveState(localStorage, next); setState(next); setStorageError(''); return true; } catch { setStorageError('Changes could not be saved. Check browser storage space and permissions, then try again.'); return false; } }
+  function record(ipoId: string, memberId: string, result: StoredResult) {
+    setResults(previous => {
+      const next = setResult(previous, ipoId, memberId, result);
+      try { saveResults(localStorage, next); } catch { setStorageError('Allotment results could not be saved on this device.'); }
+      return next;
+    });
+  }
   const order = { Open: 0, Upcoming: 1, Recent: 2, Unknown: 3 };
   const currentDate = new Date(today);
-  const ipos = data.ipos.filter(i => (filter === 'All' || status(i, currentDate) === filter) && i.name.toLowerCase().includes(search.toLowerCase())).sort((a,b) => (allotments ? (a.allotmentDate ?? '9999').localeCompare(b.allotmentDate ?? '9999') : order[status(a, currentDate)] - order[status(b, currentDate)]) || (a.closeDate ?? '9999').localeCompare(b.closeDate ?? '9999') || a.name.localeCompare(b.name));
+  const day = istDay(currentDate);
+  const ipos = data.ipos.filter(i => (filter === 'All' || status(i, currentDate) === filter) && i.name.toLowerCase().includes(search.toLowerCase())).sort((a,b) => (allotments ? (allotmentInfo(a).date ?? '9999').localeCompare(allotmentInfo(b).date ?? '9999') : order[status(a, currentDate)] - order[status(b, currentDate)]) || (a.closeDate ?? '9999').localeCompare(b.closeDate ?? '9999') || a.name.localeCompare(b.name));
+  // Applied members whose allotment date has passed with no saved result and a checkable registrar.
+  const pending: { ipo: IPO; member: FamilyMember }[] = !allotments || !ready ? [] : data.ipos.flatMap(ipo => {
+    const date = allotmentInfo(ipo).date;
+    if (!date || day < date || !autoCheckable.has(registrarId(ipo.registrar?.name))) return [];
+    return state.members.filter(m => state.applications[ipo.id]?.[m.id]?.applied && !results.results[ipo.id]?.[m.id]).map(member => ({ ipo, member }));
+  });
+  async function checkPending() {
+    setCheckingAll(true);
+    try {
+      for (let i = 0; i < pending.length; i++) {
+        if (i) await wait(1000);
+        const { ipo, member } = pending[i];
+        const result = await requestCheck({ slug: ipo.id, registrarId: registrarId(ipo.registrar?.name), pan: member.pan });
+        record(ipo.id, member.id, { ...result, checkedAt: new Date().toISOString() });
+      }
+    } finally { setCheckingAll(false); }
+  }
   return <><header className="site-header"><a href="/" className="brand"><span className="brand-mark" aria-hidden="true">i</span><span>IPO <strong>Family</strong><small>A little clarity. All together.</small></span></a><span className="device-label">ON THIS DEVICE</span></header>
     <nav aria-label="Main navigation"><a href="/" aria-current={!allotments ? 'page' : undefined}>IPOs</a><a href="/allotments/" aria-current={allotments ? 'page' : undefined}>Allotments</a></nav>
     <main><div className="page-heading"><p className="eyebrow">YOUR FAMILY’S IPO NOTEBOOK</p><h1>{allotments ? 'Allotments, together.' : 'Keep everyone in the loop.'}</h1><p className="intro">{allotments ? 'Dates, registrars and who applied.' : 'IPO updates and family applications, in one place.'}</p></div>
@@ -46,8 +78,9 @@ export default function Dashboard({ allotments = false }: { allotments?: boolean
       <label className="search"><span className="sr-only">Search IPOs</span><input type="search" placeholder="Search a company…" value={search} onChange={e => setSearch(e.target.value)}/></label>
       {!allotments && <div className="filters" aria-label="IPO status">{['All', 'Open', 'Upcoming', 'Recent'].map(f => <button key={f} aria-pressed={filter === f} onClick={() => setFilter(f)}>{f}</button>)}</div>}
       <p className="list-count">{ipos.length} {allotments ? 'issues' : `${filter === 'All' ? 'tracked' : filter.toLowerCase()} IPOs`}</p>
-      {allotments && <p className="notice">Open the registrar’s page to check manually. This app does not check allotment results or send PANs.</p>}
-      <div className="cards">{ipos.map(ipo => allotments ? <article className="ipo-card" key={ipo.id}><span className="eyebrow">{ipo.segment ?? 'IPO'}</span><h2>{ipo.name}</h2><dl className="detail-list"><div><dt>Allotment date</dt><dd>{formatDate(ipo.allotmentDate)}</dd></div><div><dt>Registrar</dt><dd>{ipo.registrar?.name ?? 'Not available'}</dd></div></dl><h3>Family members who applied</h3><p>{state.members.filter(m => state.applications[ipo.id]?.[m.id]?.applied).map(m => m.name).join(', ') || 'No applications marked.'}</p>{safeUrl(ipo.registrar?.url) ? <a className="button secondary" href={safeUrl(ipo.registrar?.url)} target="_blank" rel="noopener noreferrer">Open registrar page ↗</a> : <p className="muted">Registrar link not available yet.</p>}</article> : <IPOCard key={ipo.id} ipo={ipo} stage={status(ipo, currentDate)} state={state} onApplied={(member, checked) => change(setApplied(state, ipo.id, member, checked))}/>)}</div>
+      {allotments && <p className="notice">Check sends the member’s PAN to the official registrar only, over HTTPS, when you tap it. Nothing is stored or logged outside this device.</p>}
+      {pending.length > 0 && <p className="notice banner" role="status">{pending.length} allotment {pending.length === 1 ? 'result is' : 'results are'} ready to check. <button className="check-button" disabled={checkingAll} onClick={checkPending}>{checkingAll ? 'Checking…' : 'Check all now'}</button></p>}
+      {ipos.length > 0 && <IPOTable ipos={ipos} state={state} currentDate={currentDate} allotments={allotments} results={results} onResult={record} onApplied={(ipo, member, checked) => change(setApplied(state, ipo, member, checked))}/>}
       {!ipos.length && <p className="empty">No IPOs match. Try another company or filter.</p>}
-    </main><footer><p>Market data: <a href="https://gmptoday.in/" target="_blank" rel="noopener noreferrer">IPO GMP Today ↗</a></p><p>GMP is unofficial, not a guaranteed listing return.</p><p>Family data stays on your device. Export a backup before clearing browser data.</p><details><summary>Install on your phone</summary><p>On Android, use your browser’s Install app option. On iPhone, open in Safari, tap Share, then Add to Home Screen. Open both tabs online once for offline use.</p></details></footer></>;
+    </main><footer><p>Market data: <a href="https://gmptoday.in/" target="_blank" rel="noopener noreferrer">IPO GMP Today ↗</a></p><p>GMP is unofficial, not a guaranteed listing return.</p><p>Family data stays on your device; a PAN is sent to the official registrar only when you run an allotment check. Export a backup before clearing browser data.</p><details><summary>Install on your phone</summary><p>On Android, use your browser’s Install app option. On iPhone, open in Safari, tap Share, then Add to Home Screen. Open both tabs online once for offline use.</p></details></footer></>;
 }

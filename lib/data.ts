@@ -6,8 +6,18 @@ export function freshness(stamp: string, now = Date.now()) {
   const minutes = Math.max(0, Math.floor((now - Date.parse(stamp)) / 60000));
   return { stale: minutes > 180, label: !Number.isFinite(minutes) ? 'Update time unavailable' : minutes < 1 ? 'Updated just now' : minutes < 60 ? `Updated ${minutes} minutes ago` : minutes < 1440 ? `Updated ${Math.floor(minutes / 60)} hours ago` : `Updated ${Math.floor(minutes / 1440)} days ago` };
 }
+export const istDay = (now = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
+// Upstream boa_date is currently null for every IPO, so fall back to the T+3
+// convention: allotment on the next working day after close, labeled estimated.
+export function allotmentInfo(ipo: IPO): { date?: string; estimated: boolean } {
+  if (ipo.allotmentDate) return { date: ipo.allotmentDate, estimated: false };
+  if (!ipo.closeDate) return { estimated: true };
+  const day = new Date(`${ipo.closeDate}T12:00:00Z`);
+  do { day.setUTCDate(day.getUTCDate() + 1); } while (day.getUTCDay() === 0 || day.getUTCDay() === 6);
+  return { date: day.toISOString().slice(0, 10), estimated: true };
+}
 export function status(ipo: IPO, now = new Date()) {
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
+  const today = istDay(now);
   if (ipo.openDate && ipo.openDate > today) return 'Upcoming';
   if (ipo.closeDate && ipo.closeDate < today) return 'Recent';
   if (ipo.openDate && ipo.closeDate && ipo.openDate <= today && ipo.closeDate >= today) return 'Open';

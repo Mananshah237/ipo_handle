@@ -29,7 +29,9 @@ def date(value):
     value = text(value)
     if not value:
         return None
-    for fmt in ('%Y-%m-%d', '%d %b %Y', '%d-%b-%Y'):
+    # Upstream mixes "Sep" and "Sept"; strptime %b only accepts the former.
+    value = re.sub(r'\bSept\b', 'Sep', value)
+    for fmt in ('%Y-%m-%d', '%d %b %Y', '%d-%b-%Y', '%d %B %Y'):
         try:
             return datetime.strptime(value, fmt).date().isoformat()
         except ValueError:

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T11:46:35+05:30",
+  "generatedAt": "2026-09-13T18:46:23+05:30",
   "ipos": [
     {
       "id": "a-one-steels",
@@ -43,7 +43,7 @@
       "name": "Amtech Esters",
       "gmp": 7.0,
       "gmpMin": 6.0,
-      "gmpMax": 10.0,
+      "gmpMax": 11.0,
       "gmpPercent": 9.33,
       "priceMax": 75.0,
       "lotSize": 1600,
@@ -67,7 +67,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 7.0,
+          "gmp": 11.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -162,7 +162,7 @@
           "date": "2026-09-13",
           "median": 7.0,
           "min": 6.0,
-          "max": 10.0
+          "max": 11.0
         }
       ]
     },
@@ -593,10 +593,10 @@
     {
       "id": "glass-wall-systems",
       "name": "Glass Wall Systems",
-      "gmp": 49.75,
+      "gmp": 50.0,
       "gmpMin": 45.0,
-      "gmpMax": 53.0,
-      "gmpPercent": 27.34,
+      "gmpMax": 52.0,
+      "gmpPercent": 27.47,
       "priceMax": 182.0,
       "priceMin": 172.0,
       "lotSize": 82,
@@ -630,12 +630,12 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 50.5,
+          "gmp": 52.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 53.0,
+          "gmp": 51.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -723,19 +723,19 @@
         },
         {
           "date": "2026-09-13",
-          "median": 49.75,
+          "median": 50.0,
           "min": 45.0,
-          "max": 53.0
+          "max": 52.0
         }
       ]
     },
     {
       "id": "hero-motors",
       "name": "Hero Motors",
-      "gmp": 23.5,
-      "gmpMin": 10.0,
+      "gmp": 20.0,
+      "gmpMin": 8.0,
       "gmpMax": 25.0,
-      "gmpPercent": 27.98,
+      "gmpPercent": 23.81,
       "priceMax": 84.0,
       "priceMin": 79.0,
       "lotSize": 178,
@@ -757,7 +757,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 24.0,
+          "gmp": 8.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -767,7 +767,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 23.0,
+          "gmp": 24.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -807,8 +807,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 23.5,
-          "min": 10.0,
+          "median": 20.0,
+          "min": 8.0,
           "max": 25.0
         }
       ]
@@ -1009,10 +1009,10 @@
     {
       "id": "jindal-supreme",
       "name": "Jindal Supreme",
-      "gmp": 23.0,
-      "gmpMin": 17.0,
-      "gmpMax": 26.0,
-      "gmpPercent": 24.73,
+      "gmp": 21.0,
+      "gmpMin": 13.0,
+      "gmpMax": 25.0,
+      "gmpPercent": 22.58,
       "priceMax": 93.0,
       "priceMin": 88.0,
       "lotSize": 161,
@@ -1021,7 +1021,7 @@
       "sourceCount": 6,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "low",
       "upiCutoff": "18-Sep-2026 (upto 5:00 PM)",
       "openDate": "2026-09-16",
       "closeDate": "2026-09-18",
@@ -1034,7 +1034,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 25.0,
+          "gmp": 13.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -1044,7 +1044,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 26.0,
+          "gmp": 25.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1096,19 +1096,19 @@
         },
         {
           "date": "2026-09-13",
-          "median": 23.0,
-          "min": 17.0,
-          "max": 26.0
+          "median": 21.0,
+          "min": 13.0,
+          "max": 25.0
         }
       ]
     },
     {
       "id": "kanohar-electricals",
       "name": "Kanohar Electricals",
-      "gmp": 237.5,
-      "gmpMin": 232.0,
+      "gmp": 240.0,
+      "gmpMin": 235.0,
       "gmpMax": 244.0,
-      "gmpPercent": 37.58,
+      "gmpPercent": 37.97,
       "priceMax": 632.0,
       "priceMin": 601.0,
       "lotSize": 23,
@@ -1137,17 +1137,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 232.0,
+          "gmp": 244.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 240.0,
+          "gmp": 244.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 244.0,
+          "gmp": 241.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1241,8 +1241,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 237.5,
-          "min": 232.0,
+          "median": 240.0,
+          "min": 235.0,
           "max": 244.0
         }
       ]
@@ -1250,10 +1250,10 @@
     {
       "id": "karamtara-engineering",
       "name": "Karamtara Engineering",
-      "gmp": 69.0,
-      "gmpMin": 65.0,
+      "gmp": 70.0,
+      "gmpMin": 66.0,
       "gmpMax": 72.0,
-      "gmpPercent": 27.17,
+      "gmpPercent": 27.56,
       "priceMax": 254.0,
       "priceMin": 241.0,
       "lotSize": 59,
@@ -1282,7 +1282,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 69.0,
+          "gmp": 71.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -1302,7 +1302,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 65.0,
+          "gmp": 66.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1368,8 +1368,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 69.0,
-          "min": 65.0,
+          "median": 70.0,
+          "min": 66.0,
           "max": 72.0
         }
       ]
@@ -1440,10 +1440,10 @@
     {
       "id": "lcc-projects",
       "name": "LCC Projects",
-      "gmp": 65.5,
+      "gmp": 64.5,
       "gmpMin": 59.0,
-      "gmpMax": 78.0,
-      "gmpPercent": 44.86,
+      "gmpMax": 75.0,
+      "gmpPercent": 44.18,
       "priceMax": 146.0,
       "priceMin": 139.0,
       "lotSize": 102,
@@ -1472,17 +1472,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 78.0,
+          "gmp": 64.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 61.0,
+          "gmp": 64.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 59.0,
+          "gmp": 65.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1492,7 +1492,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 61.0,
+          "gmp": 59.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1570,9 +1570,9 @@
         },
         {
           "date": "2026-09-13",
-          "median": 65.5,
+          "median": 64.5,
           "min": 59.0,
-          "max": 78.0
+          "max": 75.0
         }
       ]
     },
@@ -1581,7 +1581,7 @@
       "name": "Maharaja & Speedex India",
       "gmp": 30.0,
       "gmpMin": 12.0,
-      "gmpMax": 48.0,
+      "gmpMax": 50.0,
       "gmpPercent": 16.13,
       "priceMax": 186.0,
       "lotSize": 600,
@@ -1603,17 +1603,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 48.0,
+          "gmp": 30.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 48.0,
+          "gmp": 50.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 48.0,
+          "gmp": 46.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1678,7 +1678,7 @@
           "date": "2026-09-13",
           "median": 30.0,
           "min": 12.0,
-          "max": 48.0
+          "max": 50.0
         }
       ]
     },
@@ -1717,7 +1717,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 15.0,
+          "gmp": 13.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -1727,7 +1727,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 15.0,
+          "gmp": 11.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1737,7 +1737,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 11.0,
+          "gmp": 9.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1805,10 +1805,10 @@
     {
       "id": "manipal-payment",
       "name": "Manipal Payment and Identity Solutions",
-      "gmp": 1.5,
-      "gmpMin": -3.0,
+      "gmp": 2.0,
+      "gmpMin": -2.0,
       "gmpMax": 4.0,
-      "gmpPercent": 0.44,
+      "gmpPercent": 0.59,
       "priceMax": 339.0,
       "priceMin": 322.0,
       "lotSize": 44,
@@ -1842,12 +1842,12 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": -3.0,
+          "gmp": -2.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 2.0,
+          "gmp": 3.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1857,7 +1857,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 1.0,
+          "gmp": 0.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1923,8 +1923,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 1.5,
-          "min": -3.0,
+          "median": 2.0,
+          "min": -2.0,
           "max": 4.0
         }
       ]
@@ -1986,10 +1986,10 @@
     {
       "id": "nse",
       "name": "NSE",
-      "gmp": 214.0,
-      "gmpMin": 204.0,
-      "gmpMax": 219.0,
-      "gmpPercent": 11.99,
+      "gmp": 209.0,
+      "gmpMin": 207.0,
+      "gmpMax": 218.0,
+      "gmpPercent": 11.71,
       "priceMax": 1785.0,
       "lotSize": 8,
       "minInvestment": 14280.0,
@@ -2005,12 +2005,12 @@
       "trackers": [
         {
           "name": "InvestorGain",
-          "gmp": 204.0,
+          "gmp": 208.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 219.0,
+          "gmp": 207.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2093,9 +2093,9 @@
         },
         {
           "date": "2026-09-13",
-          "median": 214.0,
-          "min": 204.0,
-          "max": 219.0
+          "median": 209.0,
+          "min": 207.0,
+          "max": 218.0
         }
       ]
     },
@@ -2189,10 +2189,10 @@
     {
       "id": "panchatv-bharat",
       "name": "Panchatv Bharat",
-      "gmp": 10.5,
-      "gmpMin": 7.0,
+      "gmp": 9.0,
+      "gmpMin": 0.0,
       "gmpMax": 11.0,
-      "gmpPercent": 7.5,
+      "gmpPercent": 6.43,
       "priceMax": 140.0,
       "lotSize": 1000,
       "minInvestment": 140000.0,
@@ -2201,7 +2201,7 @@
       "overallSubscription": 0.04,
       "segment": "SME",
       "status": "Open",
-      "confidence": "medium",
+      "confidence": "low",
       "openDate": "2026-09-10",
       "closeDate": "2026-09-15",
       "listingDate": "2026-09-18",
@@ -2213,7 +2213,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 11.0,
+          "gmp": 0.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -2223,7 +2223,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 10.0,
+          "gmp": 11.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2281,8 +2281,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 10.5,
-          "min": 7.0,
+          "median": 9.0,
+          "min": 0.0,
           "max": 11.0
         }
       ]
@@ -2290,10 +2290,10 @@
     {
       "id": "pranav-constructions",
       "name": "Pranav Constructions",
-      "gmp": 46.0,
-      "gmpMin": 44.0,
+      "gmp": 45.0,
+      "gmpMin": 45.0,
       "gmpMax": 50.0,
-      "gmpPercent": 37.1,
+      "gmpPercent": 36.29,
       "priceMax": 124.0,
       "priceMin": 118.0,
       "lotSize": 120,
@@ -2327,12 +2327,12 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 44.0,
+          "gmp": 45.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 47.0,
+          "gmp": 45.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2426,8 +2426,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 46.0,
-          "min": 44.0,
+          "median": 45.0,
+          "min": 45.0,
           "max": 50.0
         }
       ]
@@ -2437,7 +2437,7 @@
       "name": "Prasol Chemicals",
       "gmp": 0.0,
       "gmpMin": -15.0,
-      "gmpMax": 17.0,
+      "gmpMax": 22.0,
       "gmpPercent": 0.0,
       "priceMax": 676.0,
       "priceMin": 643.0,
@@ -2477,7 +2477,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 17.0,
+          "gmp": 22.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2567,16 +2567,16 @@
           "date": "2026-09-13",
           "median": 0.0,
           "min": -15.0,
-          "max": 17.0
+          "max": 22.0
         }
       ]
     },
     {
       "id": "qualiance-international",
       "name": "Qualiance International",
-      "gmp": 80.0,
-      "gmpMin": 80.0,
-      "gmpMax": 80.0,
+      "gmp": 65.0,
+      "gmpMin": 65.0,
+      "gmpMax": 65.0,
       "priceMin": 120.0,
       "lotSize": 1000.0,
       "minLots": 2,
@@ -2599,7 +2599,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 80.0,
+          "gmp": 65.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         }
       ],
@@ -2678,9 +2678,9 @@
         },
         {
           "date": "2026-09-13",
-          "median": 80.0,
-          "min": 80.0,
-          "max": 80.0
+          "median": 65.0,
+          "min": 65.0,
+          "max": 65.0
         }
       ]
     },
@@ -2781,7 +2781,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 30.0,
+          "gmp": 28.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -2869,10 +2869,10 @@
     {
       "id": "rentomojo",
       "name": "Rentomojo",
-      "gmp": 155.5,
-      "gmpMin": 148.0,
+      "gmp": 156.0,
+      "gmpMin": 145.0,
       "gmpMax": 160.0,
-      "gmpPercent": 38.49,
+      "gmpPercent": 38.61,
       "priceMax": 404.0,
       "priceMin": 384.0,
       "lotSize": 37,
@@ -2901,17 +2901,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 148.0,
+          "gmp": 160.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 160.0,
+          "gmp": 145.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 159.0,
+          "gmp": 157.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2921,7 +2921,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 152.0,
+          "gmp": 155.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -2987,8 +2987,8 @@
         },
         {
           "date": "2026-09-13",
-          "median": 155.5,
-          "min": 148.0,
+          "median": 156.0,
+          "min": 145.0,
           "max": 160.0
         }
       ]
@@ -3143,18 +3143,18 @@
     {
       "id": "spectraa-technology-solutions",
       "name": "SpectraA Technology Solutions",
-      "gmp": 0.0,
+      "gmp": 18.0,
       "gmpMin": 0.0,
-      "gmpMax": 18.0,
-      "gmpPercent": 0.0,
+      "gmpMax": 27.0,
+      "gmpPercent": 15.25,
       "priceMax": 118.0,
       "lotSize": 1200,
       "minInvestment": 141600.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "low",
       "openDate": "2026-09-17",
       "closeDate": "2026-09-21",
       "listingDate": "2026-09-24",
@@ -3165,13 +3165,18 @@
       "subscription": {},
       "trackers": [
         {
-          "name": "InvestorGain",
+          "name": "Chanakya Ni Pothi",
           "gmp": 18.0,
+          "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
+        },
+        {
+          "name": "InvestorGain",
+          "gmp": 27.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 0.0,
+          "gmp": 18.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -3200,19 +3205,19 @@
         },
         {
           "date": "2026-09-13",
-          "median": 0.0,
+          "median": 18.0,
           "min": 0.0,
-          "max": 18.0
+          "max": 27.0
         }
       ]
     },
     {
       "id": "ss-retail",
       "name": "SS Retail",
-      "gmp": 102.5,
-      "gmpMin": 80.0,
-      "gmpMax": 108.0,
-      "gmpPercent": 24.17,
+      "gmp": 90.5,
+      "gmpMin": 30.0,
+      "gmpMax": 110.0,
+      "gmpPercent": 21.34,
       "priceMax": 424.0,
       "priceMin": 403.0,
       "lotSize": 35,
@@ -3221,7 +3226,7 @@
       "sourceCount": 6,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "low",
       "upiCutoff": "18-Sep-2026 (upto 5:00 PM)",
       "openDate": "2026-09-16",
       "closeDate": "2026-09-18",
@@ -3234,17 +3239,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 108.0,
+          "gmp": 30.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 99.0,
+          "gmp": 110.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 108.0,
+          "gmp": 96.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -3254,7 +3259,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 90.0,
+          "gmp": 85.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -3290,9 +3295,9 @@
         },
         {
           "date": "2026-09-13",
-          "median": 102.5,
-          "min": 80.0,
-          "max": 108.0
+          "median": 90.5,
+          "min": 30.0,
+          "max": 110.0
         }
       ]
     },
@@ -3525,7 +3530,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 15.0,
+          "gmp": 24.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -3762,5 +3767,5 @@
       ]
     }
   ],
-  "contentHash": "84da4f8ccef613671c93f3712d50babce4cf99a6cd267fb3adbf135f98df8a8e"
+  "contentHash": "dc01e54e41219fb38bae52f4039881172feabce1a763aacd13292897bf73f064"
 }

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T18:46:52+05:30",
+  "generatedAt": "2026-09-17T20:16:55+05:30",
   "ipos": [
     {
       "id": "a-one-steels",
       "name": "A-One Steels",
-      "gmp": 54.0,
+      "gmp": 55.0,
       "gmpMin": 53.0,
       "gmpMax": 55.0,
-      "gmpPercent": 13.33,
+      "gmpPercent": 13.58,
       "priceMax": 405.0,
       "lotSize": 37,
       "minInvestment": 14985.0,
@@ -24,7 +24,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 53.0,
+          "gmp": 55.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -81,7 +81,7 @@
         },
         {
           "date": "2026-09-17",
-          "median": 54.0,
+          "median": 55.0,
           "min": 53.0,
           "max": 55.0
         }
@@ -884,10 +884,10 @@
     {
       "id": "hero-motors",
       "name": "Hero Motors",
-      "gmp": 8.0,
-      "gmpMin": 7.0,
-      "gmpMax": 24.0,
-      "gmpPercent": 9.52,
+      "gmp": 7.0,
+      "gmpMin": 6.0,
+      "gmpMax": 8.0,
+      "gmpPercent": 8.33,
       "priceMax": 84.0,
       "priceMin": 79.0,
       "lotSize": 178,
@@ -897,7 +897,7 @@
       "overallSubscription": 3.58,
       "segment": "Mainboard",
       "status": "Open",
-      "confidence": "low",
+      "confidence": "medium",
       "subscriptionSource": "NSE",
       "upiCutoff": "18-Sep-2026 (upto 5:00 PM)",
       "openDate": "2026-09-16",
@@ -916,7 +916,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 24.0,
+          "gmp": 7.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -936,12 +936,12 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 8.0,
+          "gmp": 6.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
           "name": "IPO Market",
-          "gmp": 8.0,
+          "gmp": 7.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -995,9 +995,9 @@
         },
         {
           "date": "2026-09-17",
-          "median": 8.0,
-          "min": 7.0,
-          "max": 24.0
+          "median": 7.0,
+          "min": 6.0,
+          "max": 8.0
         }
       ]
     },
@@ -1688,10 +1688,10 @@
     {
       "id": "kheria-autocomp",
       "name": "Kheria Autocomp",
-      "gmp": 7.5,
+      "gmp": 10.5,
       "gmpMin": 3.0,
-      "gmpMax": 11.0,
-      "gmpPercent": 7.43,
+      "gmpMax": 12.0,
+      "gmpPercent": 10.4,
       "priceMax": 101.0,
       "priceMin": 96.0,
       "lotSize": 1200.0,
@@ -1714,7 +1714,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 10.0,
+          "gmp": 12.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -1734,7 +1734,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 3.0,
+          "gmp": 12.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -1788,9 +1788,9 @@
         },
         {
           "date": "2026-09-17",
-          "median": 7.5,
+          "median": 10.5,
           "min": 3.0,
-          "max": 11.0
+          "max": 12.0
         }
       ]
     },
@@ -1980,7 +1980,7 @@
       "id": "maharaja-speedex",
       "name": "Maharaja & Speedex India",
       "gmp": 28.0,
-      "gmpMin": 23.0,
+      "gmpMin": 21.0,
       "gmpMax": 29.0,
       "gmpPercent": 15.05,
       "priceMax": 186.0,
@@ -1991,7 +1991,7 @@
       "overallSubscription": 32.41,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "high",
+      "confidence": "medium",
       "openDate": "2026-09-10",
       "closeDate": "2026-09-15",
       "listingDate": "2026-09-18",
@@ -2023,7 +2023,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 23.0,
+          "gmp": 21.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -2096,7 +2096,7 @@
         {
           "date": "2026-09-17",
           "median": 28.0,
-          "min": 23.0,
+          "min": 21.0,
           "max": 29.0
         }
       ]
@@ -2421,7 +2421,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 147.0,
+          "gmp": 148.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -2997,10 +2997,10 @@
     {
       "id": "raksan-transformers",
       "name": "Raksan Transformers",
-      "gmp": 20.5,
+      "gmp": 15.0,
       "gmpMin": 10.0,
       "gmpMax": 21.0,
-      "gmpPercent": 7.51,
+      "gmpPercent": 5.49,
       "priceMax": 273.0,
       "lotSize": 400,
       "minInvestment": 109200.0,
@@ -3017,7 +3017,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 21.0,
+          "gmp": 10.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -3037,7 +3037,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 20.0,
+          "gmp": 10.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -3115,7 +3115,7 @@
         },
         {
           "date": "2026-09-17",
-          "median": 20.5,
+          "median": 15.0,
           "min": 10.0,
           "max": 21.0
         }
@@ -3563,7 +3563,7 @@
       "name": "Sonaselection India",
       "gmp": 4.0,
       "gmpMin": 3.0,
-      "gmpMax": 7.0,
+      "gmpMax": 4.0,
       "gmpPercent": 4.04,
       "priceMax": 99.0,
       "priceMin": 94.0,
@@ -3593,7 +3593,7 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 7.0,
+          "gmp": 4.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
@@ -3680,7 +3680,7 @@
           "date": "2026-09-17",
           "median": 4.0,
           "min": 3.0,
-          "max": 7.0
+          "max": 4.0
         }
       ]
     },
@@ -3795,10 +3795,10 @@
     {
       "id": "ss-retail",
       "name": "SS Retail",
-      "gmp": 130.0,
+      "gmp": 129.0,
       "gmpMin": 100.0,
       "gmpMax": 133.0,
-      "gmpPercent": 30.66,
+      "gmpPercent": 30.42,
       "priceMax": 424.0,
       "priceMin": 403.0,
       "lotSize": 35,
@@ -3852,7 +3852,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 130.0,
+          "gmp": 128.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -3912,7 +3912,7 @@
         },
         {
           "date": "2026-09-17",
-          "median": 130.0,
+          "median": 129.0,
           "min": 100.0,
           "max": 133.0
         }
@@ -4572,5 +4572,5 @@
       ]
     }
   ],
-  "contentHash": "f7e7c0e1418eb409a8a9a5be5b0583ee10c0eadf3e6739471ec9f70d79865896"
+  "contentHash": "7c2ef84529f192bb00a707bd20e0ac2f92f09c1a2491f3b7c2345dd8668af889"
 }

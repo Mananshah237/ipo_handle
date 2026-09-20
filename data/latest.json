@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T21:30:32+05:30",
+  "generatedAt": "2026-09-20T11:46:45+05:30",
   "ipos": [
     {
       "id": "a-one-steels",
       "name": "A-One Steels",
       "gmp": 62.0,
       "gmpMin": 40.0,
-      "gmpMax": 66.0,
+      "gmpMax": 65.0,
       "gmpPercent": 15.31,
       "priceMax": 405.0,
       "lotSize": 37,
@@ -34,7 +34,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 66.0,
+          "gmp": 65.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -101,16 +101,22 @@
           "median": 62.0,
           "min": 40.0,
           "max": 66.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 62.0,
+          "min": 40.0,
+          "max": 65.0
         }
       ]
     },
     {
       "id": "adroit-industries",
       "name": "Adroit Industries",
-      "gmp": 38.5,
+      "gmp": 36.5,
       "gmpMin": 33.0,
       "gmpMax": 41.0,
-      "gmpPercent": 28.73,
+      "gmpPercent": 27.24,
       "priceMax": 134.0,
       "lotSize": 111,
       "minInvestment": 14874.0,
@@ -140,7 +146,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 41.0,
+          "gmp": 36.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -169,6 +175,12 @@
         {
           "date": "2026-09-19",
           "median": 38.5,
+          "min": 33.0,
+          "max": 41.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 36.5,
           "min": 33.0,
           "max": 41.0
         }
@@ -237,6 +249,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -245,7 +263,7 @@
       "name": "ArMee Infotech",
       "gmp": 1.0,
       "gmpMin": 0.0,
-      "gmpMax": 2.0,
+      "gmpMax": 1.0,
       "gmpPercent": 0.27,
       "priceMax": 375.0,
       "minLots": 1,
@@ -274,7 +292,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 2.0,
+          "gmp": 1.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -306,6 +324,12 @@
           "median": 1.0,
           "min": 0.0,
           "max": 2.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0
         }
       ]
     },
@@ -423,6 +447,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -436,7 +466,7 @@
       "minLots": 1,
       "sourceCount": 1,
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "openDate": "2026-09-23",
       "closeDate": "2026-09-25",
       "subscription": {},
@@ -450,6 +480,12 @@
       "history": [
         {
           "date": "2026-09-19",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
@@ -580,6 +616,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -594,7 +636,7 @@
       "minLots": 1,
       "sourceCount": 1,
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "openDate": "2026-09-23",
       "closeDate": "2026-09-25",
       "subscription": {},
@@ -611,6 +653,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -618,8 +666,8 @@
       "id": "elevate-campuses",
       "name": "Elevate Campuses",
       "gmp": 16.0,
-      "gmpMin": 14.0,
-      "gmpMax": 17.0,
+      "gmpMin": 15.0,
+      "gmpMax": 20.0,
       "gmpPercent": 4.42,
       "priceMax": 362.0,
       "lotSize": 41,
@@ -646,7 +694,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 14.0,
+          "gmp": 20.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -683,6 +731,12 @@
           "median": 16.0,
           "min": 14.0,
           "max": 17.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 16.0,
+          "min": 15.0,
+          "max": 20.0
         }
       ]
     },
@@ -757,6 +811,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -765,7 +825,7 @@
       "name": "Hero Motors",
       "gmp": 0.0,
       "gmpMin": -2.0,
-      "gmpMax": 3.0,
+      "gmpMax": 2.0,
       "gmpPercent": 0.0,
       "priceMax": 84.0,
       "priceMin": 79.0,
@@ -805,7 +865,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 3.0,
+          "gmp": 1.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -884,6 +944,12 @@
           "median": 0.0,
           "min": -2.0,
           "max": 3.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": -2.0,
+          "max": 2.0
         }
       ]
     },
@@ -949,6 +1015,12 @@
         },
         {
           "date": "2026-09-19",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
@@ -1073,6 +1145,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -1080,7 +1158,7 @@
       "id": "jindal-supreme",
       "name": "Jindal Supreme",
       "gmp": 29.0,
-      "gmpMin": 25.0,
+      "gmpMin": 26.0,
       "gmpMax": 30.0,
       "gmpPercent": 31.18,
       "priceMax": 93.0,
@@ -1121,7 +1199,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 28.0,
+          "gmp": 29.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1131,7 +1209,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 25.0,
+          "gmp": 26.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1211,6 +1289,12 @@
           "date": "2026-09-19",
           "median": 29.0,
           "min": 25.0,
+          "max": 30.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 29.0,
+          "min": 26.0,
           "max": 30.0
         }
       ]
@@ -1339,6 +1423,12 @@
           "median": 7.0,
           "min": 7.0,
           "max": 10.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 7.0,
+          "min": 7.0,
+          "max": 10.0
         }
       ]
     },
@@ -1393,6 +1483,12 @@
         },
         {
           "date": "2026-09-19",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
@@ -1495,6 +1591,12 @@
         },
         {
           "date": "2026-09-19",
+          "median": 28.0,
+          "min": 28.0,
+          "max": 28.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 28.0,
           "min": 28.0,
           "max": 28.0
@@ -1649,6 +1751,12 @@
           "median": 2.0,
           "min": 2.0,
           "max": 2.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 2.0,
+          "min": 2.0,
+          "max": 2.0
         }
       ]
     },
@@ -1728,16 +1836,22 @@
           "median": 111.0,
           "min": 111.0,
           "max": 111.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 111.0,
+          "min": 111.0,
+          "max": 111.0
         }
       ]
     },
     {
       "id": "nse",
       "name": "NSE",
-      "gmp": 79.0,
-      "gmpMin": 55.0,
+      "gmp": 62.5,
+      "gmpMin": 48.0,
       "gmpMax": 90.0,
-      "gmpPercent": 4.43,
+      "gmpPercent": 3.5,
       "priceMax": 1785.0,
       "lotSize": 8,
       "minInvestment": 14280.0,
@@ -1760,17 +1874,17 @@
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 70.0,
+          "gmp": 55.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 55.0,
+          "gmp": 48.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 73.0,
+          "gmp": 60.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -1780,7 +1894,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 85.0,
+          "gmp": 65.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1897,6 +2011,12 @@
           "median": 79.0,
           "min": 55.0,
           "max": 90.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 62.5,
+          "min": 48.0,
+          "max": 90.0
         }
       ]
     },
@@ -1992,6 +2112,12 @@
         },
         {
           "date": "2026-09-19",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
@@ -2097,6 +2223,12 @@
           "median": 3.0,
           "min": 3.0,
           "max": 3.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 3.0,
+          "min": 3.0,
+          "max": 3.0
         }
       ]
     },
@@ -2156,6 +2288,12 @@
         },
         {
           "date": "2026-09-19",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
@@ -2275,6 +2413,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -2379,6 +2523,12 @@
           "median": 10.0,
           "min": 10.0,
           "max": 10.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 10.0,
+          "min": 10.0,
+          "max": 10.0
         }
       ]
     },
@@ -2387,7 +2537,7 @@
       "name": "Robokidz Eduventures",
       "gmp": 51.0,
       "gmpMin": 25.0,
-      "gmpMax": 52.0,
+      "gmpMax": 51.0,
       "gmpPercent": 48.11,
       "priceMax": 106.0,
       "lotSize": 1200,
@@ -2414,7 +2564,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 52.0,
+          "gmp": 51.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2469,6 +2619,12 @@
           "median": 51.0,
           "min": 25.0,
           "max": 52.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 51.0,
+          "min": 25.0,
+          "max": 51.0
         }
       ]
     },
@@ -2549,6 +2705,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -2610,6 +2772,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -2617,7 +2785,7 @@
       "id": "shakti-polytarp",
       "name": "Shakti Polytarp",
       "gmp": 5.0,
-      "gmpMin": 4.0,
+      "gmpMin": 5.0,
       "gmpMax": 6.0,
       "gmpPercent": 8.47,
       "priceMax": 59.0,
@@ -2652,7 +2820,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 4.0,
+          "gmp": 5.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2731,6 +2899,12 @@
           "date": "2026-09-19",
           "median": 5.0,
           "min": 4.0,
+          "max": 6.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 5.0,
+          "min": 5.0,
           "max": 6.0
         }
       ]
@@ -2870,6 +3044,12 @@
           "median": 2.0,
           "min": 2.0,
           "max": 3.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 2.0,
+          "min": 2.0,
+          "max": 3.0
         }
       ]
     },
@@ -2877,7 +3057,7 @@
       "id": "spectraa-technology-solutions",
       "name": "SpectraA Technology Solutions",
       "gmp": 45.0,
-      "gmpMin": 22.0,
+      "gmpMin": 25.0,
       "gmpMax": 45.0,
       "gmpPercent": 38.14,
       "priceMax": 118.0,
@@ -2918,7 +3098,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 45.0,
+          "gmp": 44.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -2928,7 +3108,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 22.0,
+          "gmp": 25.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -2996,6 +3176,12 @@
           "median": 45.0,
           "min": 22.0,
           "max": 45.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 45.0,
+          "min": 25.0,
+          "max": 45.0
         }
       ]
     },
@@ -3003,8 +3189,8 @@
       "id": "ss-retail",
       "name": "SS Retail",
       "gmp": 146.0,
-      "gmpMin": 135.0,
-      "gmpMax": 148.0,
+      "gmpMin": 138.0,
+      "gmpMax": 150.0,
       "gmpPercent": 34.43,
       "priceMax": 424.0,
       "priceMin": 403.0,
@@ -3044,7 +3230,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 148.0,
+          "gmp": 150.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -3054,7 +3240,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 135.0,
+          "gmp": 138.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -3129,6 +3315,12 @@
           "median": 146.0,
           "min": 135.0,
           "max": 148.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 146.0,
+          "min": 138.0,
+          "max": 150.0
         }
       ]
     },
@@ -3194,6 +3386,12 @@
           "median": 3.0,
           "min": 3.0,
           "max": 5.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 3.0,
+          "min": 3.0,
+          "max": 5.0
         }
       ]
     },
@@ -3240,6 +3438,12 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -3247,8 +3451,8 @@
       "id": "vama-wovenfab",
       "name": "Vama Wovenfab",
       "gmp": 3.0,
-      "gmpMin": 3.0,
-      "gmpMax": 4.0,
+      "gmpMin": 1.0,
+      "gmpMax": 3.0,
       "gmpPercent": 0.88,
       "priceMax": 341.0,
       "lotSize": 400,
@@ -3286,7 +3490,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 4.0,
+          "gmp": 1.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -3360,16 +3564,22 @@
           "median": 3.0,
           "min": 3.0,
           "max": 4.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 3.0,
+          "min": 1.0,
+          "max": 3.0
         }
       ]
     },
     {
       "id": "varmora-granito",
       "name": "Varmora Granito",
-      "gmp": 12.0,
-      "gmpMin": 11.0,
+      "gmp": 12.5,
+      "gmpMin": 12.0,
       "gmpMax": 15.0,
-      "gmpPercent": 8.11,
+      "gmpPercent": 8.45,
       "priceMax": 148.0,
       "priceMin": 140.0,
       "lotSize": 101,
@@ -3401,7 +3611,7 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 11.0,
+          "gmp": 13.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
@@ -3437,6 +3647,12 @@
           "date": "2026-09-19",
           "median": 12.0,
           "min": 11.0,
+          "max": 15.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 12.5,
+          "min": 12.0,
           "max": 15.0
         }
       ]
@@ -3586,6 +3802,12 @@
           "median": 6.0,
           "min": 6.0,
           "max": 6.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 6.0,
+          "min": 6.0,
+          "max": 6.0
         }
       ]
     },
@@ -3654,9 +3876,15 @@
           "median": 0.0,
           "min": 0.0,
           "max": 0.0
+        },
+        {
+          "date": "2026-09-20",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     }
   ],
-  "contentHash": "db0d995675d1693b93e414ef6b6a688d52ba998d2718b2ba0f4590b4506df1bf"
+  "contentHash": "a001413549c5755618737a8eb0e2e739163f6be019dd86149a33ac6de9e7368f"
 }

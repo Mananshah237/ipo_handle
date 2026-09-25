@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T18:17:07+05:30",
+  "generatedAt": "2026-09-25T20:47:15+05:30",
   "ipos": [
     {
       "id": "a-one-steels",
@@ -306,7 +306,7 @@
       "subscription": {
         "qib": 150.29,
         "nii": 231.99,
-        "retail": 57.78,
+        "retail": 57.79,
         "total": 121.54
       },
       "trackers": [
@@ -1963,10 +1963,10 @@
     {
       "id": "orient-cables",
       "name": "Orient Cables",
-      "gmp": 70.0,
+      "gmp": 73.0,
       "gmpMin": 70.0,
       "gmpMax": 113.0,
-      "gmpPercent": 25.74,
+      "gmpPercent": 26.84,
       "priceMax": 272.0,
       "priceMin": 258.0,
       "minLots": 1,
@@ -2007,7 +2007,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 70.0,
+          "gmp": 85.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "date": "2026-09-25",
-          "median": 70.0,
+          "median": 73.0,
           "min": 70.0,
           "max": 113.0
         }
@@ -3164,17 +3164,17 @@
     {
       "id": "srit-india",
       "name": "SRIT India",
-      "gmp": 21.0,
-      "gmpMin": 15.0,
-      "gmpMax": 23.0,
-      "gmpPercent": 16.15,
+      "gmp": 22.0,
+      "gmpMin": 21.0,
+      "gmpMax": 24.0,
+      "gmpPercent": 16.92,
       "priceMax": 130.0,
       "priceMin": 123.0,
       "minLots": 1,
       "sourceCount": 5,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "upiCutoff": "30-Sep-2026 (upto 5:00 PM)",
       "openDate": "2026-09-28",
       "closeDate": "2026-09-30",
@@ -3201,7 +3201,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 15.0,
+          "gmp": 24.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -3225,9 +3225,9 @@
         },
         {
           "date": "2026-09-25",
-          "median": 21.0,
-          "min": 15.0,
-          "max": 23.0
+          "median": 22.0,
+          "min": 21.0,
+          "max": 24.0
         }
       ]
     },
@@ -3727,5 +3727,5 @@
       ]
     }
   ],
-  "contentHash": "fbfaf6d8d328846543eabbb4a95cca752dd5e63b6ed32816c7c68665f3eb18cd"
+  "contentHash": "734483d5153f7e12da1d6196c49edfa5439c773535fef0452ff0a0aced3f49df"
 }

@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:47:55+05:30",
+  "generatedAt": "2026-09-26T18:17:57+05:30",
   "ipos": [
     {
       "id": "a-one-steels",
       "name": "A-One Steels",
       "gmp": 51.0,
       "gmpMin": 38.0,
-      "gmpMax": 55.0,
+      "gmpMax": 54.0,
       "gmpPercent": 12.59,
       "priceMax": 405.0,
       "priceMin": 385.0,
+      "lotSize": 37,
+      "minInvestment": 14985.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 0.99,
+      "sourceCount": 7,
+      "overallSubscription": 1.42,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -39,13 +41,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 51.5,
+          "gmp": 54.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 55.0,
+          "gmp": 50.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 50.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -54,7 +61,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 51.0,
+          "gmp": 54.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -152,7 +159,7 @@
           "date": "2026-09-26",
           "median": 51.0,
           "min": 38.0,
-          "max": 55.0
+          "max": 54.0
         }
       ]
     },
@@ -161,16 +168,18 @@
       "name": "Acevector",
       "gmp": 2.0,
       "gmpMin": 2.0,
-      "gmpMax": 2.0,
+      "gmpMax": 3.0,
       "gmpPercent": 6.25,
       "priceMax": 32.0,
       "priceMin": 30.0,
+      "lotSize": 468,
+      "minInvestment": 14976.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 0.18,
+      "sourceCount": 7,
+      "overallSubscription": 0.24,
       "segment": "Mainboard",
       "status": "Open",
-      "confidence": "high",
+      "confidence": "medium",
       "subscriptionSource": "NSE",
       "upiCutoff": "29-Sep-2026 (upto 5:00 PM)",
       "openDate": "2026-09-25",
@@ -200,6 +209,11 @@
           "name": "IPO 360",
           "gmp": 2.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 3.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -246,7 +260,7 @@
           "date": "2026-09-26",
           "median": 2.0,
           "min": 2.0,
-          "max": 2.0
+          "max": 3.0
         }
       ]
     },
@@ -257,8 +271,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 71.0,
+      "lotSize": 600,
+      "minInvestment": 42600.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-09-28",
@@ -274,6 +291,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -317,14 +339,16 @@
       "id": "adroit-industries",
       "name": "Adroit Industries",
       "gmp": 47.0,
-      "gmpMin": 43.0,
-      "gmpMax": 48.0,
+      "gmpMin": 38.0,
+      "gmpMax": 53.0,
       "gmpPercent": 35.07,
       "priceMax": 134.0,
       "priceMin": 126.0,
+      "lotSize": 111,
+      "minInvestment": 14874.0,
       "minLots": 1,
-      "sourceCount": 5,
-      "overallSubscription": 121.54,
+      "sourceCount": 6,
+      "overallSubscription": 176.85,
       "segment": "Mainboard",
       "status": "Closed",
       "confidence": "high",
@@ -350,17 +374,22 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 48.0,
+          "gmp": 53.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 47.0,
+          "gmp": 53.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
+          "name": "IPO Index",
+          "gmp": 38.0,
+          "url": "https://ipoindex.in/"
+        },
+        {
           "name": "IPO Ji",
-          "gmp": 43.0,
+          "gmp": 47.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -421,8 +450,8 @@
         {
           "date": "2026-09-26",
           "median": 47.0,
-          "min": 43.0,
-          "max": 48.0
+          "min": 38.0,
+          "max": 53.0
         }
       ]
     },
@@ -434,9 +463,12 @@
       "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 72.0,
+      "lotSize": 1600,
+      "minInvestment": 115200.0,
       "minLots": 1,
-      "sourceCount": 3,
-      "overallSubscription": 0.74,
+      "sourceCount": 4,
+      "overallSubscription": 1.47,
+      "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
       "subscriptionSource": "Chanakya Ni Pothi",
@@ -461,6 +493,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -536,13 +573,15 @@
       "name": "ArMee Infotech",
       "gmp": 8.0,
       "gmpMin": 5.0,
-      "gmpMax": 8.0,
+      "gmpMax": 10.0,
       "gmpPercent": 2.13,
       "priceMax": 375.0,
       "priceMin": 350.0,
+      "lotSize": 40,
+      "minInvestment": 15000.0,
       "minLots": 1,
-      "sourceCount": 5,
-      "overallSubscription": 1.38,
+      "sourceCount": 6,
+      "overallSubscription": 2.62,
       "segment": "Mainboard",
       "status": "Closed",
       "confidence": "medium",
@@ -573,8 +612,13 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 7.0,
+          "gmp": 10.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 8.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -646,7 +690,7 @@
           "date": "2026-09-26",
           "median": 8.0,
           "min": 5.0,
-          "max": 8.0
+          "max": 10.0
         }
       ]
     },
@@ -690,7 +734,7 @@
       "id": "bench-mark-infotech",
       "name": "Bench Mark Infotech Services",
       "gmp": 16.0,
-      "gmpMin": 16.0,
+      "gmpMin": 15.0,
       "gmpMax": 16.0,
       "gmpPercent": 14.55,
       "priceMax": 110.0,
@@ -698,8 +742,8 @@
       "lotSize": 1200.0,
       "minInvestment": 264000.0,
       "minLots": 2,
-      "sourceCount": 5,
-      "overallSubscription": 0.24,
+      "sourceCount": 6,
+      "overallSubscription": 0.26,
       "segment": "SME",
       "status": "Open",
       "confidence": "high",
@@ -724,8 +768,13 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 16.0,
+          "gmp": 15.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 16.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -784,7 +833,7 @@
         {
           "date": "2026-09-26",
           "median": 16.0,
-          "min": 16.0,
+          "min": 15.0,
           "max": 16.0
         }
       ]
@@ -796,8 +845,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 197.0,
+      "lotSize": 600,
+      "minInvestment": 118200.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-10-29",
@@ -813,6 +865,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -864,8 +921,8 @@
       "lotSize": 1600.0,
       "minInvestment": 249600.0,
       "minLots": 2,
-      "sourceCount": 2,
-      "overallSubscription": 0.14,
+      "sourceCount": 3,
+      "overallSubscription": 1.4,
       "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
@@ -888,6 +945,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -953,8 +1015,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 111.0,
+      "lotSize": 1200,
+      "minInvestment": 133200.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-10-30",
@@ -970,6 +1035,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -1011,8 +1081,11 @@
       "gmpMax": 3.0,
       "gmpPercent": 10.34,
       "priceMax": 29.0,
+      "lotSize": 4000,
+      "minInvestment": 116000.0,
       "minLots": 1,
-      "sourceCount": 5,
+      "sourceCount": 6,
+      "overallSubscription": 0.08,
       "segment": "SME",
       "status": "Open",
       "confidence": "high",
@@ -1034,6 +1107,11 @@
           "name": "IPO 360",
           "gmp": 3.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 3.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -1084,13 +1162,15 @@
       "name": "Elevate Campuses",
       "gmp": 4.0,
       "gmpMin": 2.0,
-      "gmpMax": 5.0,
+      "gmpMax": 6.0,
       "gmpPercent": 1.1,
       "priceMax": 362.0,
       "priceMin": 343.0,
+      "lotSize": 41,
+      "minInvestment": 14842.0,
       "minLots": 1,
-      "sourceCount": 5,
-      "overallSubscription": 1.36,
+      "sourceCount": 6,
+      "overallSubscription": 1.89,
       "segment": "Mainboard",
       "status": "Closed",
       "confidence": "medium",
@@ -1121,8 +1201,13 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 5.0,
+          "gmp": 6.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 2.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -1194,23 +1279,31 @@
           "date": "2026-09-26",
           "median": 4.0,
           "min": 2.0,
-          "max": 5.0
+          "max": 6.0
         }
       ]
     },
     {
       "id": "eventions",
-      "name": "Eventions",
+      "name": "Eventions Limited",
       "gmp": 0.0,
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 118.0,
+      "lotSize": 1200,
+      "minInvestment": 141600.0,
       "minLots": 1,
-      "sourceCount": 1,
+      "sourceCount": 2,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "low",
       "subscription": {},
       "trackers": [
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
         {
           "name": "IPO Market",
           "gmp": 0.0,
@@ -1229,37 +1322,45 @@
     {
       "id": "everestims-technologies",
       "name": "EverestIMS Technologies",
-      "gmp": 0.0,
+      "gmp": 8.0,
       "gmpMin": 0.0,
-      "gmpMax": 8.0,
+      "gmpMax": 13.0,
+      "gmpPercent": 9.41,
       "priceMax": 85.0,
+      "lotSize": 1600,
+      "minInvestment": 136000.0,
       "minLots": 1,
-      "sourceCount": 5,
+      "sourceCount": 6,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "low",
       "openDate": "2026-10-29",
       "closeDate": "2026-10-05",
       "subscription": {},
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 0.0,
+          "gmp": 8.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 8.0,
+          "gmp": 13.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 0.0,
+          "gmp": 8.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
-          "name": "IPO Market",
+          "name": "IPO Index",
           "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
+        {
+          "name": "IPO Market",
+          "gmp": 13.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -1289,9 +1390,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 0.0,
+          "median": 8.0,
           "min": 0.0,
-          "max": 8.0
+          "max": 13.0
         }
       ]
     },
@@ -1299,16 +1400,18 @@
       "id": "fx-multitech",
       "name": "FX Multitech",
       "gmp": 6.0,
-      "gmpMin": 4.0,
+      "gmpMin": 0.0,
       "gmpMax": 6.0,
       "gmpPercent": 5.17,
       "priceMax": 116.0,
+      "lotSize": 1200,
+      "minInvestment": 139200.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "overallSubscription": 17.72,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "medium",
+      "confidence": "low",
       "subscriptionSource": "Chanakya Ni Pothi",
       "openDate": "2026-09-21",
       "closeDate": "2026-09-23",
@@ -1333,6 +1436,11 @@
           "name": "IPO 360",
           "gmp": 6.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -1410,7 +1518,7 @@
         {
           "date": "2026-09-26",
           "median": 6.0,
-          "min": 4.0,
+          "min": 0.0,
           "max": 6.0
         }
       ]
@@ -1418,15 +1526,17 @@
     {
       "id": "german-green-steel-power",
       "name": "German Green Steel",
-      "gmp": 25.5,
+      "gmp": 28.0,
       "gmpMin": 20.0,
-      "gmpMax": 28.0,
-      "gmpPercent": 18.35,
+      "gmpMax": 30.0,
+      "gmpPercent": 20.14,
       "priceMax": 139.0,
       "priceMin": 132.0,
+      "lotSize": 107,
+      "minInvestment": 14873.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 1.48,
+      "sourceCount": 7,
+      "overallSubscription": 1.82,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "medium",
@@ -1452,13 +1562,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 27.0,
+          "gmp": 27.5,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 25.0,
+          "gmp": 29.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 30.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -1467,7 +1582,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 25.0,
+          "gmp": 28.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -1503,9 +1618,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 25.5,
+          "median": 28.0,
           "min": 20.0,
-          "max": 28.0
+          "max": 30.0
         }
       ]
     },
@@ -1520,7 +1635,7 @@
       "lotSize": 1600.0,
       "minInvestment": 288000.0,
       "minLots": 2,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "overallSubscription": 0.02,
       "segment": "SME",
       "status": "Open",
@@ -1543,6 +1658,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -1602,9 +1722,12 @@
       "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 106.0,
+      "lotSize": 1200,
+      "minInvestment": 127200.0,
       "minLots": 1,
-      "sourceCount": 3,
-      "overallSubscription": 0.4,
+      "sourceCount": 4,
+      "overallSubscription": 2.33,
+      "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
       "subscriptionSource": "Chanakya Ni Pothi",
@@ -1626,6 +1749,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -1713,8 +1841,8 @@
       "lotSize": 1200.0,
       "minInvestment": 247200.0,
       "minLots": 2,
-      "sourceCount": 4,
-      "overallSubscription": 0.48,
+      "sourceCount": 5,
+      "overallSubscription": 0.51,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -1736,6 +1864,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -1795,9 +1928,12 @@
       "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 54.0,
+      "lotSize": 2000,
+      "minInvestment": 108000.0,
       "minLots": 1,
-      "sourceCount": 3,
-      "overallSubscription": 1.03,
+      "sourceCount": 4,
+      "overallSubscription": 5.08,
+      "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
       "subscriptionSource": "Chanakya Ni Pothi",
@@ -1819,6 +1955,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -1892,15 +2033,17 @@
     {
       "id": "moneyview",
       "name": "Moneyview",
-      "gmp": 13.75,
+      "gmp": 14.0,
       "gmpMin": 13.0,
       "gmpMax": 14.0,
-      "gmpPercent": 40.44,
+      "gmpPercent": 41.18,
       "priceMax": 34.0,
       "priceMin": 32.0,
+      "lotSize": 441,
+      "minInvestment": 14994.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 4.73,
+      "sourceCount": 7,
+      "overallSubscription": 6.22,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -1926,13 +2069,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 13.5,
+          "gmp": 14.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 13.0,
+          "gmp": 14.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 14.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -1983,29 +2131,44 @@
         },
         {
           "date": "2026-09-26",
-          "median": 13.75,
+          "median": 14.0,
           "min": 13.0,
           "max": 14.0
         }
       ]
     },
     {
-      "id": "nityas-gems-jewellery",
-      "name": "Nityas Gems & Jewellery",
+      "id": "nityas-gems",
+      "name": "Nityas Gems",
       "gmp": 0.0,
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 75.0,
+      "lotSize": 200,
+      "minInvestment": 15000.0,
       "minLots": 1,
-      "sourceCount": 1,
+      "sourceCount": 3,
+      "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-10-05",
       "subscription": {},
       "trackers": [
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
         {
           "name": "IPO Market",
           "gmp": 0.0,
           "url": "https://www.ipomarket.in/gmp"
+        },
+        {
+          "name": "IPO Watch",
+          "gmp": 0.0,
+          "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/"
         }
       ],
       "history": [
@@ -2024,8 +2187,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 311.0,
+      "lotSize": 400,
+      "minInvestment": 124400.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-10-30",
@@ -2041,6 +2207,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -2085,13 +2256,15 @@
       "name": "Orient Cables",
       "gmp": 80.0,
       "gmpMin": 70.0,
-      "gmpMax": 80.0,
+      "gmpMax": 87.0,
       "gmpPercent": 29.41,
       "priceMax": 272.0,
       "priceMin": 258.0,
+      "lotSize": 55,
+      "minInvestment": 14960.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 1.32,
+      "sourceCount": 7,
+      "overallSubscription": 2.06,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -2117,13 +2290,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 80.0,
+          "gmp": 85.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 79.0,
+          "gmp": 87.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 70.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -2132,7 +2310,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 80.0,
+          "gmp": 85.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -2170,7 +2348,7 @@
           "date": "2026-09-26",
           "median": 80.0,
           "min": 70.0,
-          "max": 80.0
+          "max": 87.0
         }
       ]
     },
@@ -2181,8 +2359,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 72.0,
+      "lotSize": 1600,
+      "minInvestment": 115200.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-10-29",
@@ -2198,6 +2379,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -2238,8 +2424,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 127.0,
+      "lotSize": 1000,
+      "minInvestment": 127000.0,
       "minLots": 1,
-      "sourceCount": 3,
+      "sourceCount": 4,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-10-30",
@@ -2250,6 +2439,11 @@
           "name": "Chanakya Ni Pothi",
           "gmp": 0.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -2290,8 +2484,12 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 101.0,
+      "lotSize": 1200,
+      "minInvestment": 121200.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "overallSubscription": 2.04,
+      "segment": "SME",
       "status": "Open",
       "confidence": "medium",
       "openDate": "2026-09-24",
@@ -2307,6 +2505,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -2365,8 +2568,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 99.0,
+      "lotSize": 1200,
+      "minInvestment": 118800.0,
       "minLots": 1,
-      "sourceCount": 3,
+      "sourceCount": 4,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-09-28",
@@ -2381,6 +2587,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -2438,8 +2649,8 @@
       "lotSize": 1200.0,
       "minInvestment": 276000.0,
       "minLots": 2,
-      "sourceCount": 3,
-      "overallSubscription": 0.34,
+      "sourceCount": 4,
+      "overallSubscription": 3.19,
       "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
@@ -2467,6 +2678,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -2534,13 +2750,15 @@
     {
       "id": "robokidz-eduventures",
       "name": "Robokidz Eduventures",
-      "gmp": 77.0,
-      "gmpMin": 68.0,
-      "gmpMax": 77.0,
-      "gmpPercent": 72.64,
+      "gmp": 76.5,
+      "gmpMin": 65.0,
+      "gmpMax": 80.0,
+      "gmpPercent": 72.17,
       "priceMax": 106.0,
+      "lotSize": 1200,
+      "minInvestment": 127200.0,
       "minLots": 1,
-      "sourceCount": 5,
+      "sourceCount": 6,
       "overallSubscription": 833.56,
       "segment": "SME",
       "status": "Closed",
@@ -2562,13 +2780,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 77.0,
+          "gmp": 80.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 77.0,
+          "gmp": 76.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 65.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -2656,21 +2879,26 @@
         },
         {
           "date": "2026-09-26",
-          "median": 77.0,
-          "min": 68.0,
-          "max": 77.0
+          "median": 76.5,
+          "min": 65.0,
+          "max": 80.0
         }
       ]
     },
     {
       "id": "roopa-screen",
       "name": "Roopa Screen",
-      "gmp": 0.0,
+      "gmp": 30.0,
       "gmpMin": 0.0,
-      "gmpMax": 29.0,
+      "gmpMax": 32.0,
+      "gmpPercent": 46.88,
       "priceMax": 64.0,
+      "lotSize": 2000,
+      "minInvestment": 128000.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 6,
+      "overallSubscription": 5.92,
+      "segment": "SME",
       "status": "Open",
       "confidence": "low",
       "openDate": "2026-09-24",
@@ -2683,13 +2911,23 @@
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
+          "name": "InvestorGain",
+          "gmp": 32.0,
+          "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
+        },
+        {
           "name": "IPO 360",
-          "gmp": 0.0,
+          "gmp": 31.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
-          "name": "IPO Market",
+          "name": "IPO Index",
           "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
+        {
+          "name": "IPO Market",
+          "gmp": 32.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -2731,9 +2969,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 0.0,
+          "median": 30.0,
           "min": 0.0,
-          "max": 29.0
+          "max": 32.0
         }
       ]
     },
@@ -2746,9 +2984,11 @@
       "gmpPercent": 5.25,
       "priceMax": 305.0,
       "priceMin": 290.0,
+      "lotSize": 49,
+      "minInvestment": 14945.0,
       "minLots": 1,
-      "sourceCount": 6,
-      "overallSubscription": 0.24,
+      "sourceCount": 7,
+      "overallSubscription": 0.44,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "medium",
@@ -2774,22 +3014,27 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 16.0,
+          "gmp": 14.5,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 14.0,
+          "gmp": 16.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
+          "name": "IPO Index",
+          "gmp": 30.0,
+          "url": "https://ipoindex.in/"
+        },
+        {
           "name": "IPO Ji",
-          "gmp": 15.0,
+          "gmp": 14.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
           "name": "IPO Market",
-          "gmp": 16.0,
+          "gmp": 18.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -2839,9 +3084,12 @@
       "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 125.0,
+      "lotSize": 1000,
+      "minInvestment": 125000.0,
       "minLots": 1,
-      "sourceCount": 3,
-      "overallSubscription": 0.12,
+      "sourceCount": 4,
+      "overallSubscription": 1.18,
+      "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
       "subscriptionSource": "Chanakya Ni Pothi",
@@ -2863,6 +3111,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -2958,8 +3211,12 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 113.0,
+      "lotSize": 1200,
+      "minInvestment": 135600.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "overallSubscription": 0.04,
+      "segment": "SME",
       "status": "Open",
       "confidence": "medium",
       "openDate": "2026-09-25",
@@ -2979,6 +3236,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -3057,14 +3319,16 @@
     {
       "id": "shah-investor-s-home",
       "name": "Shah Investor's Home",
-      "gmp": 12.0,
-      "gmpMin": 11.0,
-      "gmpMax": 13.0,
-      "gmpPercent": 7.19,
+      "gmp": 11.0,
+      "gmpMin": 9.0,
+      "gmpMax": 12.0,
+      "gmpPercent": 6.59,
       "priceMax": 167.0,
       "priceMin": 159.0,
+      "lotSize": 85,
+      "minInvestment": 14195.0,
       "minLots": 1,
-      "sourceCount": 6,
+      "sourceCount": 7,
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "high",
@@ -3084,13 +3348,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 12.0,
+          "gmp": 9.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 13.0,
+          "gmp": 10.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 12.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -3099,7 +3368,7 @@
         },
         {
           "name": "IPO Market",
-          "gmp": 12.0,
+          "gmp": 9.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -3129,9 +3398,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 12.0,
-          "min": 11.0,
-          "max": 13.0
+          "median": 11.0,
+          "min": 9.0,
+          "max": 12.0
         }
       ]
     },
@@ -3142,8 +3411,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 62.0,
+      "lotSize": 2000,
+      "minInvestment": 124000.0,
       "minLots": 1,
-      "sourceCount": 3,
+      "sourceCount": 4,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "openDate": "2026-09-28",
@@ -3154,6 +3426,11 @@
           "name": "Chanakya Ni Pothi",
           "gmp": 0.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -3198,10 +3475,13 @@
       "name": "Shree TNB Polymers",
       "gmp": 0.0,
       "gmpMin": 0.0,
-      "gmpMax": 0.0,
+      "gmpMax": 7.0,
       "priceMax": 52.0,
+      "lotSize": 2000,
+      "minInvestment": 104000.0,
       "minLots": 1,
-      "sourceCount": 4,
+      "sourceCount": 5,
+      "segment": "SME",
       "status": "Open",
       "confidence": "low",
       "openDate": "2026-09-25",
@@ -3217,6 +3497,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 7.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -3252,19 +3537,22 @@
           "date": "2026-09-26",
           "median": 0.0,
           "min": 0.0,
-          "max": 0.0
+          "max": 7.0
         }
       ]
     },
     {
       "id": "sjp-ultrasonics",
-      "name": "SJP Ultrasonics",
+      "name": "SJP Ultrasonic",
       "gmp": 0.0,
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 67.0,
+      "lotSize": 2000,
+      "minInvestment": 134000.0,
       "minLots": 1,
-      "sourceCount": 2,
+      "sourceCount": 3,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "low",
       "subscription": {},
@@ -3273,6 +3561,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -3296,12 +3589,20 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 55.0,
+      "lotSize": 2000,
+      "minInvestment": 110000.0,
       "minLots": 1,
-      "sourceCount": 1,
+      "sourceCount": 2,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "low",
       "subscription": {},
       "trackers": [
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
         {
           "name": "IPO Market",
           "gmp": 0.0,
@@ -3455,13 +3756,15 @@
       "id": "srit-india",
       "name": "SRIT India",
       "gmp": 32.0,
-      "gmpMin": 26.0,
-      "gmpMax": 32.0,
+      "gmpMin": 12.0,
+      "gmpMax": 33.0,
       "gmpPercent": 24.62,
       "priceMax": 130.0,
       "priceMin": 123.0,
+      "lotSize": 115,
+      "minInvestment": 14950.0,
       "minLots": 1,
-      "sourceCount": 6,
+      "sourceCount": 7,
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "medium",
@@ -3486,8 +3789,13 @@
         },
         {
           "name": "IPO 360",
-          "gmp": 31.0,
+          "gmp": 33.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 12.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -3527,23 +3835,25 @@
         {
           "date": "2026-09-26",
           "median": 32.0,
-          "min": 26.0,
-          "max": 32.0
+          "min": 12.0,
+          "max": 33.0
         }
       ]
     },
     {
       "id": "swastika-infra",
       "name": "Swastika Infra",
-      "gmp": 4.5,
+      "gmp": 5.0,
       "gmpMin": 4.0,
-      "gmpMax": 5.0,
-      "gmpPercent": 2.43,
+      "gmpMax": 6.0,
+      "gmpPercent": 2.7,
       "priceMax": 185.0,
       "priceMin": 175.0,
+      "lotSize": 81,
+      "minInvestment": 14985.0,
       "minLots": 1,
-      "sourceCount": 5,
-      "overallSubscription": 5.86,
+      "sourceCount": 6,
+      "overallSubscription": 7.91,
       "segment": "Mainboard",
       "status": "Closed",
       "confidence": "medium",
@@ -3569,13 +3879,18 @@
         },
         {
           "name": "InvestorGain",
-          "gmp": 4.5,
+          "gmp": 6.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
           "gmp": 5.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 5.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -3639,9 +3954,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 4.5,
+          "median": 5.0,
           "min": 4.0,
-          "max": 5.0
+          "max": 6.0
         }
       ]
     },
@@ -3652,8 +3967,11 @@
       "gmpMin": 0.0,
       "gmpMax": 0.0,
       "priceMax": 70.0,
+      "lotSize": 2000,
+      "minInvestment": 140000.0,
       "minLots": 1,
-      "sourceCount": 2,
+      "sourceCount": 3,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
@@ -3662,6 +3980,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Market",
@@ -3692,9 +4015,12 @@
       "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 88.0,
+      "lotSize": 1600,
+      "minInvestment": 140800.0,
       "minLots": 1,
-      "sourceCount": 2,
-      "overallSubscription": 0.13,
+      "sourceCount": 3,
+      "overallSubscription": 3.92,
+      "segment": "SME",
       "status": "Closed",
       "confidence": "medium",
       "subscriptionSource": "Chanakya Ni Pothi",
@@ -3711,6 +4037,11 @@
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Watch",
@@ -3778,37 +4109,45 @@
     {
       "id": "vans-electroengineerings",
       "name": "Vans Electroengineerings",
-      "gmp": 0.0,
+      "gmp": 18.0,
       "gmpMin": 0.0,
-      "gmpMax": 18.0,
+      "gmpMax": 28.0,
+      "gmpPercent": 15.25,
       "priceMax": 118.0,
+      "lotSize": 1200,
+      "minInvestment": 141600.0,
       "minLots": 1,
-      "sourceCount": 5,
+      "sourceCount": 6,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "low",
       "openDate": "2026-10-29",
       "closeDate": "2026-10-01",
       "subscription": {},
       "trackers": [
         {
           "name": "Chanakya Ni Pothi",
-          "gmp": 0.0,
+          "gmp": 18.0,
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
           "name": "InvestorGain",
-          "gmp": 18.0,
+          "gmp": 28.0,
           "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
         },
         {
           "name": "IPO 360",
-          "gmp": 0.0,
+          "gmp": 19.0,
           "url": "https://www.ipo360.in/gmp"
         },
         {
-          "name": "IPO Market",
+          "name": "IPO Index",
           "gmp": 0.0,
+          "url": "https://ipoindex.in/"
+        },
+        {
+          "name": "IPO Market",
+          "gmp": 18.0,
           "url": "https://www.ipomarket.in/gmp"
         },
         {
@@ -3832,9 +4171,9 @@
         },
         {
           "date": "2026-09-26",
-          "median": 0.0,
+          "median": 18.0,
           "min": 0.0,
-          "max": 18.0
+          "max": 28.0
         }
       ]
     },
@@ -3843,13 +4182,15 @@
       "name": "Varmora Granito",
       "gmp": 0.0,
       "gmpMin": 0.0,
-      "gmpMax": 0.5,
+      "gmpMax": 0.0,
       "gmpPercent": 0.0,
       "priceMax": 148.0,
       "priceMin": 140.0,
+      "lotSize": 101,
+      "minInvestment": 14948.0,
       "minLots": 1,
       "sourceCount": 5,
-      "overallSubscription": 0.27,
+      "overallSubscription": 1.6,
       "segment": "Mainboard",
       "status": "Closed",
       "confidence": "medium",
@@ -3874,14 +4215,14 @@
           "url": "https://www.chanakyanipothi.com/ipo-gmp-today"
         },
         {
-          "name": "InvestorGain",
-          "gmp": 0.5,
-          "url": "https://www.investorgain.com/report/ipo-gmp-live/331/"
-        },
-        {
           "name": "IPO 360",
           "gmp": 0.0,
           "url": "https://www.ipo360.in/gmp"
+        },
+        {
+          "name": "IPO Index",
+          "gmp": 0.0,
+          "url": "https://ipoindex.in/"
         },
         {
           "name": "IPO Ji",
@@ -3953,7 +4294,37 @@
           "date": "2026-09-26",
           "median": 0.0,
           "min": 0.0,
-          "max": 0.5
+          "max": 0.0
+        }
+      ]
+    },
+    {
+      "id": "vishal-nirmiti",
+      "name": "Vishal Nirmiti",
+      "gmp": 0.0,
+      "gmpMin": 0.0,
+      "gmpMax": 0.0,
+      "priceMax": 220.0,
+      "minLots": 1,
+      "sourceCount": 1,
+      "status": "Upcoming",
+      "confidence": "low",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-10-05",
+      "subscription": {},
+      "trackers": [
+        {
+          "name": "IPO Watch",
+          "gmp": 0.0,
+          "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-26",
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       ]
     },
@@ -4066,5 +4437,5 @@
       ]
     }
   ],
-  "contentHash": "fe2b2b86c0650f27794398e11cdc837839e78220432343a4fb337692108956f6"
+  "contentHash": "8541e68afccbecb18fbb99e4db08db2dcc7912b8846146f5e095852b5d396bfa"
 }

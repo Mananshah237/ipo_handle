@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T18:16:20+05:30",
+  "generatedAt": "2026-10-03T20:45:57+05:30",
   "ipos": [
     {
       "id": "a-one-steel",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 11.0,
+          "gmp": 10.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1794,10 +1794,10 @@
     {
       "id": "orient-cables",
       "name": "Orient Cables",
-      "gmp": 119.0,
-      "gmpMin": 113.0,
+      "gmp": 117.0,
+      "gmpMin": 110.0,
       "gmpMax": 123.0,
-      "gmpPercent": 43.75,
+      "gmpPercent": 43.01,
       "priceMax": 272.0,
       "priceMin": 258.0,
       "lotSize": 55,
@@ -1839,7 +1839,7 @@
         },
         {
           "name": "IPO Ji",
-          "gmp": 118.0,
+          "gmp": 110.0,
           "url": "https://www.ipoji.com/ipo-gmp"
         },
         {
@@ -1917,8 +1917,8 @@
         },
         {
           "date": "2026-10-03",
-          "median": 119.0,
-          "min": 113.0,
+          "median": 117.0,
+          "min": 110.0,
           "max": 123.0
         }
       ]
@@ -3676,5 +3676,5 @@
       ]
     }
   ],
-  "contentHash": "eac1cbc19ac1e46a3d57c14bd5d0ae704a72ceb59062224e14a35be05c51de23"
+  "contentHash": "53dd09835c9848b73995bbd0d531eb72e16c25252d6875595945809590d79c1a"
 }

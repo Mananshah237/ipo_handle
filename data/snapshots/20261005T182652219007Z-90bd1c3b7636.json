@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-10-05T22:38:23+05:30",
+ "updated_at": "2026-10-05T22:38:23+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 32,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": true
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": true
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "Acme India Industries",
+   "slug": "acme-india-industries",
+   "url": "https://gmptoday.in/ipo/acme-india-industries/",
+   "type": "SME",
+   "status": "Open",
+   "bidding": "30 Sep \u2013 6 Oct",
+   "open_date": "2026-09-30",
+   "close_date": "2026-10-06",
+   "allotment_date": "7 Oct",
+   "listing_date": "9 Oct",
+   "price_band": 196.0,
+   "lot_size": 600,
+   "min_investment": 117600.0,
+   "issue_size": "\u20b9121.69 Cr",
+   "gmp_median": 30.0,
+   "gmp_min": 14.0,
+   "gmp_max": 31.0,
+   "gmp_sources": 7,
+   "confidence": "medium",
+   "score": 59,
+   "est_listing_gain_pct": 15.31,
+   "subscription": 3.76
+  },
+  {
+   "name": "TNA Solutions",
+   "slug": "tna-solutions",
+   "url": "https://gmptoday.in/ipo/tna-solutions/",
+   "type": "SME",
+   "status": "Open",
+   "bidding": "30 Sep \u2013 6 Oct",
+   "open_date": "2026-09-30",
+   "close_date": "2026-10-06",
+   "allotment_date": "7 Oct",
+   "listing_date": "9 Oct",
+   "price_band": 70.0,
+   "lot_size": 2000,
+   "min_investment": 140000.0,
+   "issue_size": "\u20b937.86 Cr",
+   "gmp_median": 10.0,
+   "gmp_min": 10.0,
+   "gmp_max": 10.0,
+   "gmp_sources": 6,
+   "confidence": "high",
+   "score": 87,
+   "est_listing_gain_pct": 14.29,
+   "subscription": 2.99
+  },
+  {
+   "name": "R.K.Fashion Accessories",
+   "slug": "r-k-fashion",
+   "url": "https://gmptoday.in/ipo/r-k-fashion/",
+   "type": "SME",
+   "status": "Open",
+   "bidding": "5\u20137 Oct",
+   "open_date": "2026-10-05",
+   "close_date": "2026-10-07",
+   "allotment_date": "8 Oct",
+   "listing_date": "12 Oct",
+   "price_band": 82.0,
+   "lot_size": 1600.0,
+   "min_investment": 262400.0,
+   "issue_size": "\u20b934.99 Cr",
+   "gmp_median": 3.5,
+   "gmp_min": 0.0,
+   "gmp_max": 7.0,
+   "gmp_sources": 4,
+   "confidence": "low",
+   "score": 36,
+   "est_listing_gain_pct": 4.27,
+   "subscription": 0.4
+  }
+ ]
+}

@@ -1,16 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T13:16:06+05:30",
+  "generatedAt": "2026-10-06T20:46:11+05:30",
   "ipos": [
     {
-      "id": "acme-india-industries",
-      "name": "Acme India Industries",
-      "priceMax": 196.0,
-      "lotSize": 600,
-      "minInvestment": 117600.0,
-      "overallSubscription": 9.62,
-      "segment": "SME",
-      "status": "Open",
+      "id": "hd-fire-protect",
+      "name": "HD Fire Protect",
+      "status": "Upcoming",
+      "confidence": "low",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "jio-platform",
+      "name": "Jio Platforms",
+      "segment": "Mainboard",
+      "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
@@ -22,21 +27,7 @@
       "priceMax": 82.0,
       "lotSize": 1600.0,
       "minInvestment": 262400.0,
-      "overallSubscription": 0.42,
-      "segment": "SME",
-      "status": "Open",
-      "confidence": "high",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "tna-solutions",
-      "name": "TNA Solutions",
-      "priceMax": 70.0,
-      "lotSize": 2000,
-      "minInvestment": 140000.0,
-      "overallSubscription": 17.32,
+      "overallSubscription": 0.47,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -45,5 +36,5 @@
       "history": []
     }
   ],
-  "contentHash": "3eda7704fa4912ac50aecb52743992d2cb79c7619cc088c58d3877b622da9452"
+  "contentHash": "50919e36a4e62552fddce353a83de8881982356735a1b7a14c2383bde8d10f11"
 }

@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-10-06T20:46:11+05:30",
+ "updated_at": "2026-10-06T20:46:11+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 25,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": true
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": true
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "R.K.Fashion Accessories",
+   "slug": "r-k-fashion",
+   "url": "https://gmptoday.in/ipo/r-k-fashion/",
+   "type": "SME",
+   "status": "Open",
+   "bidding": "5\u20137 Oct",
+   "open_date": "2026-10-05",
+   "close_date": "2026-10-07",
+   "allotment_date": "8 Oct",
+   "listing_date": "12 Oct",
+   "price_band": 82.0,
+   "lot_size": 1600.0,
+   "min_investment": 262400.0,
+   "issue_size": "\u20b934.99 Cr",
+   "gmp_median": 7.0,
+   "gmp_min": 7.0,
+   "gmp_max": 15.0,
+   "gmp_sources": 5,
+   "confidence": "medium",
+   "score": 52,
+   "est_listing_gain_pct": 8.54,
+   "subscription": 0.47
+  },
+  {
+   "name": "Jio Platforms",
+   "slug": "jio-platform",
+   "url": "https://gmptoday.in/ipo/jio-platform/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "21\u201323 Oct",
+   "open_date": "2026-10-21",
+   "close_date": "2026-10-23",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": null,
+   "lot_size": null,
+   "min_investment": null,
+   "issue_size": null,
+   "gmp_median": 155.0,
+   "gmp_min": 151.0,
+   "gmp_max": 162.0,
+   "gmp_sources": 3,
+   "confidence": "medium",
+   "score": 56,
+   "est_listing_gain_pct": null,
+   "subscription": null
+  },
+  {
+   "name": "HD Fire Protect",
+   "slug": "hd-fire-protect",
+   "url": "https://gmptoday.in/ipo/hd-fire-protect/",
+   "type": null,
+   "status": "Upcoming",
+   "bidding": "13\u201315 Oct",
+   "open_date": "2026-10-13",
+   "close_date": "2026-10-15",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": null,
+   "lot_size": null,
+   "min_investment": null,
+   "issue_size": null,
+   "gmp_median": 0.0,
+   "gmp_min": 0.0,
+   "gmp_max": 0.0,
+   "gmp_sources": 1,
+   "confidence": "low",
+   "score": 38,
+   "est_listing_gain_pct": null,
+   "subscription": null
+  }
+ ]
+}

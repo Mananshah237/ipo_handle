@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T13:15:43+05:30",
+  "generatedAt": "2026-10-07T19:16:05+05:30",
   "ipos": [
     {
       "id": "hd-fire-protect",
       "name": "HD Fire Protect",
-      "priceMax": 296.0,
+      "priceMax": 271.0,
       "lotSize": 55,
-      "minInvestment": 16280.0,
+      "minInvestment": 14905.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -24,21 +24,7 @@
       "subscription": {},
       "trackers": [],
       "history": []
-    },
-    {
-      "id": "r-k-fashion",
-      "name": "R.K.Fashion Accessories",
-      "priceMax": 82.0,
-      "lotSize": 1600.0,
-      "minInvestment": 262400.0,
-      "overallSubscription": 1.56,
-      "segment": "SME",
-      "status": "Open",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
     }
   ],
-  "contentHash": "3d8e35a382afd6bdd80db19f9e641e016e01d6a3b930c543ec96d68b21eda82f"
+  "contentHash": "0df1b429c45a6b8e29a03a3009b86596aa61d17cdcc782d033544b428b3706d8"
 }

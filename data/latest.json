@@ -1,18 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T20:46:11+05:30",
+  "generatedAt": "2026-10-07T13:15:43+05:30",
   "ipos": [
     {
       "id": "hd-fire-protect",
       "name": "HD Fire Protect",
+      "priceMax": 296.0,
+      "lotSize": 55,
+      "minInvestment": 16280.0,
+      "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "jio-platform",
+      "id": "jio-platforms",
       "name": "Jio Platforms",
       "segment": "Mainboard",
       "status": "Upcoming",
@@ -27,7 +31,7 @@
       "priceMax": 82.0,
       "lotSize": 1600.0,
       "minInvestment": 262400.0,
-      "overallSubscription": 0.47,
+      "overallSubscription": 1.56,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -36,5 +40,5 @@
       "history": []
     }
   ],
-  "contentHash": "50919e36a4e62552fddce353a83de8881982356735a1b7a14c2383bde8d10f11"
+  "contentHash": "3d8e35a382afd6bdd80db19f9e641e016e01d6a3b930c543ec96d68b21eda82f"
 }

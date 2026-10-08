@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T19:16:05+05:30",
+  "generatedAt": "2026-10-08T13:16:29+05:30",
   "ipos": [
     {
       "id": "hd-fire-protect",
@@ -10,7 +10,7 @@
       "minInvestment": 14905.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -18,13 +18,27 @@
     {
       "id": "jio-platforms",
       "name": "Jio Platforms",
+      "priceMax": 1283.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "vaibhav-vyapaar",
+      "name": "Vaibhav Vyapaar",
+      "priceMax": 52.0,
+      "lotSize": 2000,
+      "minInvestment": 104000.0,
+      "segment": "SME",
+      "status": "Upcoming",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "0df1b429c45a6b8e29a03a3009b86596aa61d17cdcc782d033544b428b3706d8"
+  "contentHash": "bc0e7eb4c67c64609c5a226bdf61207ecc0d33dac3ea3d76ea8a75be6c15f2af"
 }

@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-10-08T20:46:24+05:30",
+ "updated_at": "2026-10-08T20:46:24+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 19,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": true
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": true
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "HD Fire Protect",
+   "slug": "hd-fire-protect",
+   "url": "https://gmptoday.in/ipo/hd-fire-protect/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "13\u201315 Oct",
+   "open_date": "2026-10-13",
+   "close_date": "2026-10-15",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 271.0,
+   "lot_size": 55,
+   "min_investment": 14905.0,
+   "issue_size": "\u20b9712.31 Cr",
+   "gmp_median": 63.0,
+   "gmp_min": 55.0,
+   "gmp_max": 80.0,
+   "gmp_sources": 7,
+   "confidence": "medium",
+   "score": 56,
+   "est_listing_gain_pct": 23.25,
+   "subscription": null
+  },
+  {
+   "name": "Jio Platforms",
+   "slug": "jio-platforms",
+   "url": "https://gmptoday.in/ipo/jio-platforms/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "21\u201323 Oct",
+   "open_date": "2026-10-21",
+   "close_date": "2026-10-23",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 1294.0,
+   "lot_size": null,
+   "min_investment": null,
+   "issue_size": null,
+   "gmp_median": 173.0,
+   "gmp_min": 159.0,
+   "gmp_max": 177.0,
+   "gmp_sources": 4,
+   "confidence": "high",
+   "score": 72,
+   "est_listing_gain_pct": 13.37,
+   "subscription": null
+  },
+  {
+   "name": "Vaibhav Vyapaar",
+   "slug": "vaibhav-vyapaar",
+   "url": "https://gmptoday.in/ipo/vaibhav-vyapaar/",
+   "type": "SME",
+   "status": "Upcoming",
+   "bidding": "13\u201315 Oct",
+   "open_date": "2026-10-13",
+   "close_date": "2026-10-15",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 52.0,
+   "lot_size": 2000,
+   "min_investment": 104000.0,
+   "issue_size": "\u20b940.54 Cr",
+   "gmp_median": 0.0,
+   "gmp_min": 0.0,
+   "gmp_max": 0.0,
+   "gmp_sources": 5,
+   "confidence": "medium",
+   "score": 54,
+   "est_listing_gain_pct": null,
+   "subscription": null
+  }
+ ]
+}

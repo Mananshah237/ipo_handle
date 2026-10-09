@@ -1,24 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T20:46:24+05:30",
+  "generatedAt": "2026-10-09T14:16:16+05:30",
   "ipos": [
     {
-      "id": "hd-fire-protect",
-      "name": "HD Fire Protect",
-      "priceMax": 271.0,
-      "lotSize": 55,
-      "minInvestment": 14905.0,
-      "segment": "Mainboard",
-      "status": "Upcoming",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "jio-platforms",
-      "name": "Jio Platforms",
-      "priceMax": 1294.0,
+      "id": "fusion-cx",
+      "name": "Fusion CX",
+      "priceMax": 289.0,
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "high",
@@ -27,18 +14,29 @@
       "history": []
     },
     {
-      "id": "vaibhav-vyapaar",
-      "name": "Vaibhav Vyapaar",
-      "priceMax": 52.0,
-      "lotSize": 2000,
-      "minInvestment": 104000.0,
-      "segment": "SME",
+      "id": "hd-fire-protect",
+      "name": "HD Fire Protect",
+      "priceMax": 271.0,
+      "lotSize": 55,
+      "minInvestment": 14905.0,
+      "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "jio-platforms",
+      "name": "Jio Platforms",
+      "priceMax": 1295.0,
+      "segment": "Mainboard",
+      "status": "Upcoming",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "46421b44d1f5945703c8a84f8f4d92d7505cab93ed05bdf79a75bbdddcba2e29"
+  "contentHash": "9ffd7ba59f73fdc1de0216b2e66a48e598ab1adfaac6b7a347a9f9312db17e0e"
 }

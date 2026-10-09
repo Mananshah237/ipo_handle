@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T14:16:16+05:30",
+  "generatedAt": "2026-10-09T20:16:21+05:30",
   "ipos": [
     {
       "id": "fusion-cx",
@@ -21,7 +21,7 @@
       "minInvestment": 14905.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -29,7 +29,7 @@
     {
       "id": "jio-platforms",
       "name": "Jio Platforms",
-      "priceMax": 1295.0,
+      "priceMax": 1119.0,
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "high",
@@ -38,5 +38,5 @@
       "history": []
     }
   ],
-  "contentHash": "9ffd7ba59f73fdc1de0216b2e66a48e598ab1adfaac6b7a347a9f9312db17e0e"
+  "contentHash": "4b3baf5a689d8341e1cc34ad1e839ac032a15bbd14b600a32a756cc375dfe340"
 }

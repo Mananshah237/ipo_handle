@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T20:16:21+05:30",
+  "generatedAt": "2026-10-10T13:16:32+05:30",
   "ipos": [
     {
       "id": "fusion-cx",
@@ -21,7 +21,7 @@
       "minInvestment": 14905.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -38,5 +38,5 @@
       "history": []
     }
   ],
-  "contentHash": "4b3baf5a689d8341e1cc34ad1e839ac032a15bbd14b600a32a756cc375dfe340"
+  "contentHash": "90cd92846c1729edb4ed7b1c23d984d00dea339f785806c1a6a0597a3dc602f8"
 }

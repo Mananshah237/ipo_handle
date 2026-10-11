@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T13:16:32+05:30",
+  "generatedAt": "2026-10-11T13:45:50+05:30",
   "ipos": [
     {
       "id": "fusion-cx",
@@ -8,7 +8,7 @@
       "priceMax": 289.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -38,5 +38,5 @@
       "history": []
     }
   ],
-  "contentHash": "90cd92846c1729edb4ed7b1c23d984d00dea339f785806c1a6a0597a3dc602f8"
+  "contentHash": "cd7739838f6d5ab889ba0ea384acf8a51c578d9c9d2eb009a693735f5117d158"
 }

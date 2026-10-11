@@ -1,18 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T13:45:50+05:30",
+  "generatedAt": "2026-10-11T20:45:40+05:30",
   "ipos": [
-    {
-      "id": "fusion-cx",
-      "name": "Fusion CX",
-      "priceMax": 289.0,
-      "segment": "Mainboard",
-      "status": "Upcoming",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
     {
       "id": "hd-fire-protect",
       "name": "HD Fire Protect",
@@ -36,7 +25,20 @@
       "subscription": {},
       "trackers": [],
       "history": []
+    },
+    {
+      "id": "ravita-engineering-services",
+      "name": "Ravita Engineering Services",
+      "priceMax": 112.0,
+      "lotSize": 1200.0,
+      "minInvestment": 134400.0,
+      "segment": "SME",
+      "status": "Upcoming",
+      "confidence": "low",
+      "subscription": {},
+      "trackers": [],
+      "history": []
     }
   ],
-  "contentHash": "cd7739838f6d5ab889ba0ea384acf8a51c578d9c9d2eb009a693735f5117d158"
+  "contentHash": "4bab03af988fa49789dcf971c1a0220952647ad7e771fa66c69c4bb8ba8d8c7c"
 }

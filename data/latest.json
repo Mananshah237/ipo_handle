@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T13:16:52+05:30",
+  "generatedAt": "2026-10-12T19:46:02+05:30",
   "ipos": [
     {
       "id": "bonfiglioli-transmissions",
@@ -10,7 +10,7 @@
       "minInvestment": 14650.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -32,13 +32,15 @@
       "id": "tonbo-imaging",
       "name": "Tonbo Imaging India",
       "priceMax": 700.0,
+      "lotSize": 21,
+      "minInvestment": 14700.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "3aaf3a9926f5d1f37e67b01b1219da524d930e7e5431afb1ce1ee886e95498f6"
+  "contentHash": "010b93740fb24f14ea6e1437147f35a1185eb34eb242d0121dce01a7a1942c16"
 }

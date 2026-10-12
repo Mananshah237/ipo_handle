@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T20:45:40+05:30",
+  "generatedAt": "2026-10-12T13:16:52+05:30",
   "ipos": [
+    {
+      "id": "bonfiglioli-transmissions",
+      "name": "Bonfiglioli Transmissions",
+      "priceMax": 586.0,
+      "lotSize": 25,
+      "minInvestment": 14650.0,
+      "segment": "Mainboard",
+      "status": "Upcoming",
+      "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
     {
       "id": "hd-fire-protect",
       "name": "HD Fire Protect",
@@ -16,29 +29,16 @@
       "history": []
     },
     {
-      "id": "jio-platforms",
-      "name": "Jio Platforms",
-      "priceMax": 1119.0,
+      "id": "tonbo-imaging",
+      "name": "Tonbo Imaging India",
+      "priceMax": 700.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "ravita-engineering-services",
-      "name": "Ravita Engineering Services",
-      "priceMax": 112.0,
-      "lotSize": 1200.0,
-      "minInvestment": 134400.0,
-      "segment": "SME",
-      "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "4bab03af988fa49789dcf971c1a0220952647ad7e771fa66c69c4bb8ba8d8c7c"
+  "contentHash": "3aaf3a9926f5d1f37e67b01b1219da524d930e7e5431afb1ce1ee886e95498f6"
 }

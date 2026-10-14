@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T22:27:59+05:30",
+  "generatedAt": "2026-10-14T11:47:11+05:30",
   "ipos": [
     {
       "id": "bonfiglioli-transmissions",
@@ -21,7 +21,7 @@
       "priceMax": 271.0,
       "lotSize": 55,
       "minInvestment": 14905.0,
-      "overallSubscription": 4.66,
+      "overallSubscription": 8.28,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -43,5 +43,5 @@
       "history": []
     }
   ],
-  "contentHash": "f4ad780af319235a2943804430eaac8d354ff47526b935c18401a54a92aae9d8"
+  "contentHash": "38a34b232ca928b4670a531660bd08d6cc267d7093edcd1e125bafd505316368"
 }

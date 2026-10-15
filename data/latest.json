@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:46:11+05:30",
+  "generatedAt": "2026-10-15T17:46:32+05:30",
   "ipos": [
     {
       "id": "bonfiglioli-transmissions",
@@ -8,7 +8,7 @@
       "priceMax": 586.0,
       "lotSize": 25,
       "minInvestment": 14650.0,
-      "overallSubscription": 0.14,
+      "overallSubscription": 0.48,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -17,14 +17,13 @@
       "history": []
     },
     {
-      "id": "hd-fire-protect",
-      "name": "HD Fire Protect",
-      "priceMax": 271.0,
-      "lotSize": 55,
-      "minInvestment": 14905.0,
-      "overallSubscription": 30.96,
+      "id": "jio-platforms",
+      "name": "Jio Platforms",
+      "priceMax": 1119.0,
+      "lotSize": 12,
+      "minInvestment": 13428.0,
       "segment": "Mainboard",
-      "status": "Open",
+      "status": "Upcoming",
       "confidence": "high",
       "subscription": {},
       "trackers": [],
@@ -36,7 +35,7 @@
       "priceMax": 700.0,
       "lotSize": 21,
       "minInvestment": 14700.0,
-      "overallSubscription": 0.91,
+      "overallSubscription": 4.01,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -45,5 +44,5 @@
       "history": []
     }
   ],
-  "contentHash": "4e01f5c337296348739c1cb4dd073dfe62ee027f93db6be8d2a40d1f79bf67f6"
+  "contentHash": "953d7d0536e2de0949e289d80f6930a8f3c1e35015bd655d1afb22f997ea6049"
 }

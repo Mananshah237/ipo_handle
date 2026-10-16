@@ -1,0 +1,136 @@
+{
+ "generated_at": "2026-10-16T17:46:36+05:30",
+ "updated_at": "2026-10-16T17:46:36+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 11,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": false
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "gmpwatch",
+   "name": "GMP Watch",
+   "url": "https://www.gmpwatch.in/",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": true
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "Tonbo Imaging India",
+   "slug": "tonbo-imaging",
+   "url": "https://gmptoday.in/ipo/tonbo-imaging/",
+   "type": "Mainboard",
+   "status": "Open",
+   "bidding": "15\u201319 Oct",
+   "open_date": "2026-10-15",
+   "close_date": "2026-10-19",
+   "allotment_date": "20 Oct",
+   "listing_date": "23 Oct",
+   "price_band": 700.0,
+   "lot_size": 21,
+   "min_investment": 14700.0,
+   "issue_size": "\u20b9852.18 Cr",
+   "gmp_median": 500.0,
+   "gmp_min": 495.0,
+   "gmp_max": 502.0,
+   "gmp_sources": 7,
+   "confidence": "high",
+   "score": 89,
+   "est_listing_gain_pct": 71.43,
+   "subscription": 7.78
+  },
+  {
+   "name": "Bonfiglioli Transmissions",
+   "slug": "bonfiglioli-transmissions",
+   "url": "https://gmptoday.in/ipo/bonfiglioli-transmissions/",
+   "type": "Mainboard",
+   "status": "Open",
+   "bidding": "15\u201319 Oct",
+   "open_date": "2026-10-15",
+   "close_date": "2026-10-19",
+   "allotment_date": "20 Oct",
+   "listing_date": "23 Oct",
+   "price_band": 586.0,
+   "lot_size": 25,
+   "min_investment": 14650.0,
+   "issue_size": "\u20b92,533.66 Cr",
+   "gmp_median": 126.0,
+   "gmp_min": 122.0,
+   "gmp_max": 140.0,
+   "gmp_sources": 7,
+   "confidence": "high",
+   "score": 81,
+   "est_listing_gain_pct": 21.5,
+   "subscription": 0.99
+  },
+  {
+   "name": "Jio Platforms",
+   "slug": "jio-platforms",
+   "url": "https://gmptoday.in/ipo/jio-platforms/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "21\u201323 Oct",
+   "open_date": "2026-10-21",
+   "close_date": "2026-10-23",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 1119.0,
+   "lot_size": 12,
+   "min_investment": 13428.0,
+   "issue_size": "\u20b930,213.00 Cr",
+   "gmp_median": 222.5,
+   "gmp_min": 218.0,
+   "gmp_max": 223.0,
+   "gmp_sources": 6,
+   "confidence": "high",
+   "score": 90,
+   "est_listing_gain_pct": 19.88,
+   "subscription": null
+  }
+ ]
+}

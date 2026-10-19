@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T11:46:18+05:30",
+  "generatedAt": "2026-10-19T20:46:11+05:30",
   "ipos": [
     {
-      "id": "bonfiglioli-transmissions",
-      "name": "Bonfiglioli Transmissions",
-      "priceMax": 586.0,
-      "lotSize": 25,
-      "minInvestment": 14650.0,
-      "overallSubscription": 3.92,
+      "id": "bls-polymers",
+      "name": "BLS Polymers",
+      "priceMax": 150.0,
+      "lotSize": 100,
+      "minInvestment": 15000.0,
       "segment": "Mainboard",
-      "status": "Open",
-      "confidence": "high",
+      "status": "Upcoming",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -30,19 +29,18 @@
       "history": []
     },
     {
-      "id": "tonbo-imaging",
-      "name": "Tonbo Imaging India",
-      "priceMax": 700.0,
+      "id": "paras-healthcare",
+      "name": "Paras Healthcare",
+      "priceMax": 693.0,
       "lotSize": 21,
-      "minInvestment": 14700.0,
-      "overallSubscription": 22.33,
+      "minInvestment": 14553.0,
       "segment": "Mainboard",
-      "status": "Open",
+      "status": "Upcoming",
       "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "978350edcf3ff5c26ad9ee2393eb1ae55aa9be14b2fa71071910a471e7e34f8f"
+  "contentHash": "f9f328240ca3f9d6cb1cfbdd58eea8d22af17b107084d4b71b72b9829db19071"
 }

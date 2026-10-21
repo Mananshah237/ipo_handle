@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T17:15:32+05:30",
+  "generatedAt": "2026-10-21T19:32:23+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -21,7 +21,7 @@
       "priceMax": 1119.0,
       "lotSize": 12,
       "minInvestment": 13428.0,
-      "overallSubscription": 3.0,
+      "overallSubscription": 2.97,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -30,19 +30,18 @@
       "history": []
     },
     {
-      "id": "paras-healthcare",
-      "name": "Paras Healthcare",
-      "priceMax": 693.0,
-      "lotSize": 21,
-      "minInvestment": 14553.0,
-      "overallSubscription": 0.15,
+      "id": "sfc-environmental-technologies",
+      "name": "SFC Environmental Technologies",
+      "priceMax": 330.0,
+      "lotSize": 45,
+      "minInvestment": 14850.0,
       "segment": "Mainboard",
-      "status": "Open",
-      "confidence": "high",
+      "status": "Upcoming",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "eefec3d5c2631e02d6231280b186352c889a43e7034da34757fd2d87bf4aaa24"
+  "contentHash": "69b9d9faa40b8b4d857df85300dd26de695359b994dfffa0f16bb3b69d015d10"
 }

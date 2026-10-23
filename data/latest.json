@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T15:31:23+05:30",
+  "generatedAt": "2026-10-23T19:13:53+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -16,15 +16,14 @@
       "history": []
     },
     {
-      "id": "jio-platforms",
-      "name": "Jio Platforms",
-      "priceMax": 1119.0,
-      "lotSize": 12,
-      "minInvestment": 13428.0,
-      "overallSubscription": 13.52,
+      "id": "bombay-coated-special-steels",
+      "name": "Bombay Coated and Special Steels",
+      "priceMax": 82.0,
+      "lotSize": 182,
+      "minInvestment": 14924.0,
       "segment": "Mainboard",
-      "status": "Open",
-      "confidence": "high",
+      "status": "Upcoming",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -43,5 +42,5 @@
       "history": []
     }
   ],
-  "contentHash": "bdc0ed1cba4acc9b247b5601d53b4676d8fe798a18493ec1511989c4426c2a46"
+  "contentHash": "e3af4d5b4cdf79bc64cff77f8af6ddf07e70655ec5f7a1b6a46011d684b5cee6"
 }

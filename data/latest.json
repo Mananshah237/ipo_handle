@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T19:33:53+05:30",
+  "generatedAt": "2026-10-23T08:23:31+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -21,7 +21,7 @@
       "priceMax": 1119.0,
       "lotSize": 12,
       "minInvestment": 13428.0,
-      "overallSubscription": 5.38,
+      "overallSubscription": 5.4,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -37,11 +37,11 @@
       "minInvestment": 14850.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "5581a690d51b3f9a892448cbb7287e38f34512a0d1c44a866b9ebc78f55efd46"
+  "contentHash": "3cb2cd0e199a12a036e8aa3154b5dbe6361dfd56a3b2292983a223c506c21c05"
 }

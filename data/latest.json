@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T11:46:23+05:30",
+  "generatedAt": "2026-10-25T13:00:33+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -23,24 +23,24 @@
       "minInvestment": 14924.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "eaaa-india-alternatives",
-      "name": "EAAA India Alternatives",
-      "priceMax": 1665.0,
-      "lotSize": 9,
-      "minInvestment": 14985.0,
+      "id": "sfc-environmental-technologies",
+      "name": "SFC Environmental Technologies",
+      "priceMax": 330.0,
+      "lotSize": 45,
+      "minInvestment": 14850.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "6f1de9fa7a4280e0eda07827729cfdea886ffc88b611034a33042e87bf6731fd"
+  "contentHash": "4232c2b8dd8f6fca2ff79c8e483ee4c186766e76af69c6f654b7601cad249094"
 }

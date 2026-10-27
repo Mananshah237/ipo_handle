@@ -1,14 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T12:02:53+05:30",
+  "generatedAt": "2026-10-27T19:00:39+05:30",
   "ipos": [
+    {
+      "id": "ajwa-projects",
+      "name": "Ajwa Projects",
+      "priceMax": 203.0,
+      "lotSize": 600,
+      "minInvestment": 121800.0,
+      "segment": "SME",
+      "status": "Upcoming",
+      "confidence": "low",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
     {
       "id": "bls-polymers",
       "name": "BLS Polymers",
       "priceMax": 150.0,
       "lotSize": 100,
       "minInvestment": 15000.0,
-      "overallSubscription": 3.69,
+      "overallSubscription": 9.62,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -17,32 +30,18 @@
       "history": []
     },
     {
-      "id": "bombay-coated-special-steels",
-      "name": "Bombay Coated and Special Steels",
-      "priceMax": 82.0,
-      "lotSize": 182,
-      "minInvestment": 14924.0,
-      "segment": "Mainboard",
+      "id": "maxwell-engineering-solutions",
+      "name": "Maxwell Engineering Solutions",
+      "priceMax": 158.0,
+      "lotSize": 800,
+      "minInvestment": 126400.0,
+      "segment": "SME",
       "status": "Upcoming",
-      "confidence": "high",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "sfc-environmental-technologies",
-      "name": "SFC Environmental Technologies",
-      "priceMax": 330.0,
-      "lotSize": 45,
-      "minInvestment": 14850.0,
-      "overallSubscription": 0.04,
-      "segment": "Mainboard",
-      "status": "Open",
-      "confidence": "high",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "84fdcfe50062f60d0ee5d6bb398632a165f6c0b30b09a97f46d9507ad8ccfcf0"
+  "contentHash": "d53eee9d49833e7333833878f2b8077e8a3bb202206b41c2b80facdb33bacc09"
 }

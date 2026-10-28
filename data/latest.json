@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T19:00:39+05:30",
+  "generatedAt": "2026-10-28T12:07:41+05:30",
   "ipos": [
     {
       "id": "ajwa-projects",
@@ -8,9 +8,10 @@
       "priceMax": 203.0,
       "lotSize": 600,
       "minInvestment": 121800.0,
+      "overallSubscription": 0.08,
       "segment": "SME",
-      "status": "Upcoming",
-      "confidence": "low",
+      "status": "Open",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -21,7 +22,7 @@
       "priceMax": 150.0,
       "lotSize": 100,
       "minInvestment": 15000.0,
-      "overallSubscription": 9.62,
+      "overallSubscription": 16.29,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -37,11 +38,11 @@
       "minInvestment": 126400.0,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "d53eee9d49833e7333833878f2b8077e8a3bb202206b41c2b80facdb33bacc09"
+  "contentHash": "3b12dde33462ef8656f16435959f64e6c93f122e652f7c6decfb2944f902a67c"
 }

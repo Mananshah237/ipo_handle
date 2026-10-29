@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T13:00:23+05:30",
+  "generatedAt": "2026-10-29T20:00:50+05:30",
   "ipos": [
     {
-      "id": "ajwa-projects",
-      "name": "Ajwa Projects",
-      "priceMax": 203.0,
-      "lotSize": 600,
-      "minInvestment": 121800.0,
-      "overallSubscription": 0.67,
-      "segment": "SME",
+      "id": "bombay-coated-special-steels",
+      "name": "Bombay Coated and Special Steels",
+      "priceMax": 82.0,
+      "lotSize": 182,
+      "minInvestment": 14924.0,
+      "overallSubscription": 2.58,
+      "segment": "Mainboard",
       "status": "Open",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "bls-polymers",
-      "name": "BLS Polymers",
-      "priceMax": 150.0,
-      "lotSize": 100,
-      "minInvestment": 15000.0,
-      "overallSubscription": 95.52,
+      "id": "m-k-sons-fine-jewels",
+      "name": "M.K.Sons Fine Jewels",
+      "priceMax": 162.0,
+      "lotSize": 91,
+      "minInvestment": 14742.0,
+      "overallSubscription": 1.18,
       "segment": "Mainboard",
       "status": "Open",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -44,5 +44,5 @@
       "history": []
     }
   ],
-  "contentHash": "6f43351a004aac4907cb53819b62d7c49602d612e082f453344900c1705c9a26"
+  "contentHash": "7c27e069137f56959657890a2e235f79e958e17eefdd1f43e8dfab15ede0139a"
 }

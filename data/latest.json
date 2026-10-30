@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T20:00:50+05:30",
+  "generatedAt": "2026-10-30T14:00:09+05:30",
   "ipos": [
     {
       "id": "bombay-coated-special-steels",
@@ -8,7 +8,7 @@
       "priceMax": 82.0,
       "lotSize": 182,
       "minInvestment": 14924.0,
-      "overallSubscription": 2.58,
+      "overallSubscription": 2.81,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -22,7 +22,7 @@
       "priceMax": 162.0,
       "lotSize": 91,
       "minInvestment": 14742.0,
-      "overallSubscription": 1.18,
+      "overallSubscription": 3.02,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "medium",
@@ -35,14 +35,15 @@
       "name": "Maxwell Engineering Solutions",
       "priceMax": 158.0,
       "lotSize": 800.0,
-      "minInvestment": 126400.0,
+      "minInvestment": 252800.0,
+      "overallSubscription": 2.64,
       "segment": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "7c27e069137f56959657890a2e235f79e958e17eefdd1f43e8dfab15ede0139a"
+  "contentHash": "c9fc6fa7713f15dec82f4d9ca4eea3ee5ce01312f1b9df5bd9d0a89523dee722"
 }

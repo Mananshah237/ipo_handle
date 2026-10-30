@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T14:00:09+05:30",
+  "generatedAt": "2026-10-30T20:00:41+05:30",
   "ipos": [
     {
       "id": "bombay-coated-special-steels",
@@ -8,7 +8,7 @@
       "priceMax": 82.0,
       "lotSize": 182,
       "minInvestment": 14924.0,
-      "overallSubscription": 2.81,
+      "overallSubscription": 3.98,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -17,15 +17,15 @@
       "history": []
     },
     {
-      "id": "m-k-sons-fine-jewels",
-      "name": "M.K.Sons Fine Jewels",
-      "priceMax": 162.0,
-      "lotSize": 91,
-      "minInvestment": 14742.0,
-      "overallSubscription": 3.02,
-      "segment": "Mainboard",
+      "id": "hgs-india",
+      "name": "HGS (India)",
+      "priceMax": 120.0,
+      "lotSize": 1200.0,
+      "minInvestment": 288000.0,
+      "overallSubscription": 1.53,
+      "segment": "SME",
       "status": "Open",
-      "confidence": "medium",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,7 +36,7 @@
       "priceMax": 158.0,
       "lotSize": 800.0,
       "minInvestment": 252800.0,
-      "overallSubscription": 2.64,
+      "overallSubscription": 4.66,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -45,5 +45,5 @@
       "history": []
     }
   ],
-  "contentHash": "c9fc6fa7713f15dec82f4d9ca4eea3ee5ce01312f1b9df5bd9d0a89523dee722"
+  "contentHash": "f2c2b8312acc488151b253a9a78c43ebc82f4798e5a9dd3449dad8ef129305ac"
 }

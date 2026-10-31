@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T20:00:41+05:30",
+  "generatedAt": "2026-10-31T20:05:49+05:30",
   "ipos": [
     {
       "id": "bombay-coated-special-steels",
@@ -25,7 +25,7 @@
       "overallSubscription": 1.53,
       "segment": "SME",
       "status": "Open",
-      "confidence": "low",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -45,5 +45,5 @@
       "history": []
     }
   ],
-  "contentHash": "f2c2b8312acc488151b253a9a78c43ebc82f4798e5a9dd3449dad8ef129305ac"
+  "contentHash": "b190c5990e12b05615e6a317fa3815546f8d4796951362bb90fe6aa43a7630c3"
 }

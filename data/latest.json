@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T11:46:05+05:30",
+  "generatedAt": "2026-11-02T20:15:46+05:30",
   "ipos": [
     {
       "id": "hgs-india",
@@ -8,10 +8,10 @@
       "priceMax": 120.0,
       "lotSize": 1200.0,
       "minInvestment": 288000.0,
-      "overallSubscription": 6.95,
+      "overallSubscription": 19.43,
       "segment": "SME",
       "status": "Open",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -22,7 +22,7 @@
       "priceMax": 158.0,
       "lotSize": 800.0,
       "minInvestment": 252800.0,
-      "overallSubscription": 29.72,
+      "overallSubscription": 80.19,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -36,7 +36,7 @@
       "priceMax": 94.0,
       "lotSize": 1200.0,
       "minInvestment": 225600.0,
-      "overallSubscription": 0.25,
+      "overallSubscription": 0.42,
       "segment": "SME",
       "status": "Open",
       "confidence": "high",
@@ -45,5 +45,5 @@
       "history": []
     }
   ],
-  "contentHash": "3fdd85167527a8b5e4fa69279ee015e3a19a0239878e0d8d499f0af40c2f9146"
+  "contentHash": "36409354c4d0ecf5432d380a8939b96e4445028eea972475224c58e365270287"
 }

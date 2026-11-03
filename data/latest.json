@@ -1,31 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T14:45:59+05:30",
+  "generatedAt": "2026-11-03T20:15:45+05:30",
   "ipos": [
     {
-      "id": "hgs-india",
-      "name": "HGS (India)",
-      "priceMax": 120.0,
-      "lotSize": 1200.0,
-      "minInvestment": 288000.0,
-      "overallSubscription": 151.33,
+      "id": "antala-industries",
+      "name": "Antala Industries",
+      "priceMax": 66.0,
+      "lotSize": 2000,
+      "minInvestment": 132000.0,
+      "overallSubscription": 1.33,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "maxwell-engineering-solutions",
-      "name": "Maxwell Engineering Solutions",
-      "priceMax": 158.0,
-      "lotSize": 800.0,
-      "minInvestment": 252800.0,
-      "overallSubscription": 404.47,
-      "segment": "SME",
-      "status": "Open",
-      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,7 +22,7 @@
       "priceMax": 94.0,
       "lotSize": 1200.0,
       "minInvestment": 225600.0,
-      "overallSubscription": 0.72,
+      "overallSubscription": 0.88,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -45,5 +31,5 @@
       "history": []
     }
   ],
-  "contentHash": "0263122196d2d070063bb31a13d07f099b61ce50943332ee1df2942a69cd1977"
+  "contentHash": "1df89047cdd343c634a9848fe49184536b386622020144c33339c21597bf2e13"
 }

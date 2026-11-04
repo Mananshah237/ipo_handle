@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T20:15:45+05:30",
+  "generatedAt": "2026-11-04T14:15:43+05:30",
   "ipos": [
     {
       "id": "antala-industries",
@@ -8,7 +8,7 @@
       "priceMax": 66.0,
       "lotSize": 2000,
       "minInvestment": 132000.0,
-      "overallSubscription": 1.33,
+      "overallSubscription": 2.52,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -22,7 +22,7 @@
       "priceMax": 94.0,
       "lotSize": 1200.0,
       "minInvestment": 225600.0,
-      "overallSubscription": 0.88,
+      "overallSubscription": 1.61,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -31,5 +31,5 @@
       "history": []
     }
   ],
-  "contentHash": "1df89047cdd343c634a9848fe49184536b386622020144c33339c21597bf2e13"
+  "contentHash": "c7b0468112c8ec309c06ea754aff9bff7b86b29e25c28aec2eeb33d7d735f7af"
 }

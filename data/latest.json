@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T15:12:02+05:30",
+  "generatedAt": "2026-11-05T14:15:35+05:30",
   "ipos": [
     {
       "id": "antala-industries",
@@ -8,28 +8,14 @@
       "priceMax": 66.0,
       "lotSize": 2000,
       "minInvestment": 132000.0,
-      "overallSubscription": 4.3,
+      "overallSubscription": 9.36,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
-    },
-    {
-      "id": "vedant-poly-fabs",
-      "name": "Vedant Poly Fabs",
-      "priceMax": 94.0,
-      "lotSize": 1200.0,
-      "minInvestment": 225600.0,
-      "overallSubscription": 1.74,
-      "segment": "SME",
-      "status": "Open",
-      "confidence": "low",
-      "subscription": {},
-      "trackers": [],
-      "history": []
     }
   ],
-  "contentHash": "755fd21d29c399b05f084b3c2a50b45eafdb6e056d064988766e79254dc8f81b"
+  "contentHash": "882efbbe9b1474856e41221c5d998f6856813091e95db9eeb9dc989d4af6470c"
 }

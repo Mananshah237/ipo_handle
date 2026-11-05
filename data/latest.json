@@ -1,21 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T14:15:35+05:30",
+  "generatedAt": "2026-11-05T20:15:35+05:30",
   "ipos": [
     {
-      "id": "antala-industries",
-      "name": "Antala Industries",
-      "priceMax": 66.0,
-      "lotSize": 2000,
-      "minInvestment": 132000.0,
-      "overallSubscription": 9.36,
+      "id": "bls-polymers",
+      "name": "BLS Polymers",
+      "priceMax": 150.0,
+      "segment": "Mainboard",
+      "confidence": "low",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "hgs-india",
+      "name": "HGS (India)",
+      "priceMax": 120.0,
+      "lotSize": 1200.0,
+      "minInvestment": 288000.0,
+      "overallSubscription": 174.63,
       "segment": "SME",
-      "status": "Open",
+      "status": "Closed",
       "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "maxwell-engineering-solutions",
+      "name": "Maxwell Engineering Solutions",
+      "priceMax": 158.0,
+      "lotSize": 800.0,
+      "minInvestment": 252800.0,
+      "overallSubscription": 536.8,
+      "segment": "SME",
+      "status": "Closed",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "882efbbe9b1474856e41221c5d998f6856813091e95db9eeb9dc989d4af6470c"
+  "contentHash": "3e7300119068041a394b90a855ad94c34c981ca1da42214dbb9b611d2f5f16ef"
 }

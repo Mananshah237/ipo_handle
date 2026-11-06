@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T14:15:38+05:30",
+  "generatedAt": "2026-11-06T20:15:37+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
       "name": "BLS Polymers",
       "priceMax": 150.0,
       "segment": "Mainboard",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -39,5 +39,5 @@
       "history": []
     }
   ],
-  "contentHash": "3e0bd03ee5bffced8738cabd4b85abd3c884daad8d7f3f8ddf56fa60be1879f0"
+  "contentHash": "64c52e4e7cec6f606601759a0655f36afd00e116eaec5671bea4addff7ef3d08"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T20:15:37+05:30",
+  "generatedAt": "2026-11-07T11:45:58+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -14,30 +14,30 @@
     },
     {
       "id": "hgs-india",
-      "name": "HGS (India)",
+      "name": "HGS (India) Ltd.",
       "priceMax": 120.0,
       "lotSize": 1200.0,
       "minInvestment": 288000.0,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "medium",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
       "id": "maxwell-engineering-solutions",
-      "name": "Maxwell Engineering Solutions",
+      "name": "Maxwell Engineering",
       "priceMax": 158.0,
       "lotSize": 800.0,
       "minInvestment": 252800.0,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "medium",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "64c52e4e7cec6f606601759a0655f36afd00e116eaec5671bea4addff7ef3d08"
+  "contentHash": "aea73f1df60d41299fc6777a6ce09e3a3b2dee187f54b48468baeca8c61eac6e"
 }

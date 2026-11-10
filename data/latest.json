@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T11:45:58+05:30",
+  "generatedAt": "2026-11-10T15:00:28+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -33,11 +33,11 @@
       "minInvestment": 252800.0,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "aea73f1df60d41299fc6777a6ce09e3a3b2dee187f54b48468baeca8c61eac6e"
+  "contentHash": "f33077b6922913d904abb1f58f764c4388d6773b3f5a5af39e725fff3a452792"
 }

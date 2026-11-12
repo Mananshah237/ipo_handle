@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T15:00:28+05:30",
+  "generatedAt": "2026-11-12T14:15:42+05:30",
   "ipos": [
     {
       "id": "bls-polymers",
@@ -20,14 +20,14 @@
       "minInvestment": 288000.0,
       "segment": "SME",
       "status": "Closed",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
       "id": "maxwell-engineering-solutions",
-      "name": "Maxwell Engineering",
+      "name": "Maxwell Engineering Solutions Ltd.",
       "priceMax": 158.0,
       "lotSize": 800.0,
       "minInvestment": 252800.0,
@@ -39,5 +39,5 @@
       "history": []
     }
   ],
-  "contentHash": "f33077b6922913d904abb1f58f764c4388d6773b3f5a5af39e725fff3a452792"
+  "contentHash": "b7d699dc3a9a4ee2a8c2d91c7cc43e342185ed32d994cff4025fc489b14a0562"
 }

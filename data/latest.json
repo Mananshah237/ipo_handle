@@ -1,43 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T14:15:42+05:30",
+  "generatedAt": "2026-11-13T14:15:30+05:30",
   "ipos": [
     {
-      "id": "bls-polymers",
-      "name": "BLS Polymers",
-      "priceMax": 150.0,
+      "id": "crystal-crop-protection",
+      "name": "Crystal Crop Protection",
+      "priceMax": 272.0,
+      "lotSize": 55,
+      "minInvestment": 14960.0,
       "segment": "Mainboard",
+      "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "hgs-india",
-      "name": "HGS (India) Ltd.",
-      "priceMax": 120.0,
-      "lotSize": 1200.0,
-      "minInvestment": 288000.0,
+      "id": "watrana-rentals-ltd",
+      "name": "Watrana Rentals Ltd.",
+      "priceMax": 245.0,
       "segment": "SME",
-      "status": "Closed",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "maxwell-engineering-solutions",
-      "name": "Maxwell Engineering Solutions Ltd.",
-      "priceMax": 158.0,
-      "lotSize": 800.0,
-      "minInvestment": 252800.0,
-      "segment": "SME",
-      "status": "Closed",
-      "confidence": "medium",
+      "status": "Upcoming",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "b7d699dc3a9a4ee2a8c2d91c7cc43e342185ed32d994cff4025fc489b14a0562"
+  "contentHash": "804569024c1618589bec985645c4d7b57c25f3e842c510a70d8b5ddb6f587794"
 }

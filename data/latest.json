@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T08:45:56+05:30",
+  "generatedAt": "2026-11-15T11:45:53+05:30",
   "ipos": [
     {
       "id": "crystal-crop-protection",
@@ -8,6 +8,16 @@
       "priceMax": 272.0,
       "lotSize": 55,
       "minInvestment": 14960.0,
+      "segment": "Mainboard",
+      "status": "Upcoming",
+      "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "mahanadi-coalfields",
+      "name": "Mahanadi Coalfields",
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "low",
@@ -29,5 +39,5 @@
       "history": []
     }
   ],
-  "contentHash": "0607f7183020f2ba0d4b2b1178d1007c399f4e528ff56e1e5afd2d99023aee95"
+  "contentHash": "7934d3055830fc91a22cd89e2d2f69b1bfcadbfdcb0969794af31429b44dc94e"
 }

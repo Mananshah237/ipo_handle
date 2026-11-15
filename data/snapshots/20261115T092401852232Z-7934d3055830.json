@@ -1,0 +1,166 @@
+{
+ "generated_at": "2026-11-15T11:45:53+05:30",
+ "updated_at": "2026-11-15T11:45:53+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 10,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": false
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "gmpwatch",
+   "name": "GMP Watch",
+   "url": "https://www.gmpwatch.in/",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": false
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipotrack",
+   "name": "IPO Track",
+   "url": "https://ipotrack.in/",
+   "responded": false
+  },
+  {
+   "key": "indiaipo",
+   "name": "India IPO",
+   "url": "https://www.indiaipo.in/",
+   "responded": true
+  },
+  {
+   "key": "niftytrader",
+   "name": "NiftyTrader",
+   "url": "https://www.niftytrader.in/ipo/gmp",
+   "responded": false
+  },
+  {
+   "key": "finowings",
+   "name": "Finowings",
+   "url": "https://www.finowings.com/IPO/live-ipo-gmp.php",
+   "responded": true
+  },
+  {
+   "key": "iposathi",
+   "name": "IPO Sathi",
+   "url": "https://www.iposathi.com/ipo/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "Crystal Crop Protection",
+   "slug": "crystal-crop-protection",
+   "url": "https://gmptoday.in/ipo/crystal-crop-protection/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "18\u201320 Nov",
+   "open_date": "2026-11-18",
+   "close_date": "2026-11-20",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 272.0,
+   "lot_size": 55,
+   "min_investment": 14960.0,
+   "issue_size": "\u20b9455.49 Cr",
+   "gmp_median": 27.0,
+   "gmp_min": 26.0,
+   "gmp_max": 40.0,
+   "gmp_sources": 9,
+   "confidence": "medium",
+   "score": 57,
+   "est_listing_gain_pct": 9.93,
+   "subscription": null
+  },
+  {
+   "name": "Watrana Rentals",
+   "slug": "watrana-rentals-ltd",
+   "url": "https://gmptoday.in/ipo/watrana-rentals-ltd/",
+   "type": "SME",
+   "status": "Upcoming",
+   "bidding": "19\u201323 Nov",
+   "open_date": "2026-11-19",
+   "close_date": "2026-11-23",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 245.0,
+   "lot_size": 600,
+   "min_investment": 147000.0,
+   "issue_size": "\u20b9120.10 Cr",
+   "gmp_median": 22.0,
+   "gmp_min": 16.0,
+   "gmp_max": 22.0,
+   "gmp_sources": 7,
+   "confidence": "medium",
+   "score": 45,
+   "est_listing_gain_pct": 8.98,
+   "subscription": null
+  },
+  {
+   "name": "Mahanadi Coalfields",
+   "slug": "mahanadi-coalfields",
+   "url": "https://gmptoday.in/ipo/mahanadi-coalfields/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "19\u201323 Nov",
+   "open_date": "2026-11-19",
+   "close_date": "2026-11-23",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": null,
+   "lot_size": null,
+   "min_investment": null,
+   "issue_size": null,
+   "gmp_median": 11.0,
+   "gmp_min": 9.25,
+   "gmp_max": 13.0,
+   "gmp_sources": 4,
+   "confidence": "low",
+   "score": 35,
+   "est_listing_gain_pct": null,
+   "subscription": null
+  }
+ ]
+}

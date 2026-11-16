@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T11:47:36+05:30",
+  "generatedAt": "2026-11-16T20:16:04+05:30",
   "ipos": [
     {
       "id": "crystal-crop-protection",
@@ -10,7 +10,7 @@
       "minInvestment": 14960.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -32,15 +32,15 @@
       "id": "watrana-rentals-ltd",
       "name": "Watrana Rentals",
       "priceMax": 245.0,
-      "lotSize": 600,
+      "lotSize": 600.0,
       "minInvestment": 147000.0,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "aad6275123e6264dddc842e538a5d17388d5c4b7528af25b255df2c20c713db0"
+  "contentHash": "01833ccd2d3e8d2f40e04f29fb592ca90c4cb2ddc72f417e48a7a80b335e1597"
 }

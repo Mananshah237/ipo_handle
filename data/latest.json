@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T20:16:04+05:30",
+  "generatedAt": "2026-11-17T14:45:58+05:30",
   "ipos": [
     {
       "id": "crystal-crop-protection",
@@ -10,7 +10,7 @@
       "minInvestment": 14960.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,11 +36,11 @@
       "minInvestment": 147000.0,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "01833ccd2d3e8d2f40e04f29fb592ca90c4cb2ddc72f417e48a7a80b335e1597"
+  "contentHash": "54750346db191de62280604d633c5e11bd533403ea9daa97583ea407a70bf95a"
 }

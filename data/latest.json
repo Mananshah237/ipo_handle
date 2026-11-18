@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T20:15:38+05:30",
+  "generatedAt": "2026-11-18T14:26:59+05:30",
   "ipos": [
     {
       "id": "crystal-crop-protection",
@@ -8,22 +8,23 @@
       "priceMax": 272.0,
       "lotSize": 55,
       "minInvestment": 14960.0,
+      "overallSubscription": 1.05,
       "segment": "Mainboard",
-      "status": "Upcoming",
-      "confidence": "medium",
+      "status": "Open",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "mahanadi-coalfields",
-      "name": "Mahanadi Coalfields",
-      "priceMax": 136.0,
-      "lotSize": 110,
-      "minInvestment": 14960.0,
+      "id": "foodlink-f-b-holdings-india",
+      "name": "Foodlink F&B Holdings (India)",
+      "priceMax": 191.0,
+      "lotSize": 78,
+      "minInvestment": 14898.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,11 +37,11 @@
       "minInvestment": 147000.0,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "high",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "2fd68978e0852910643f90e4ef8e36c8227886369008ff93cb054174450fb055"
+  "contentHash": "7fc192a924944f784dad043e234f1bb8665f76d8063a8db13b98f73e23de17e6"
 }

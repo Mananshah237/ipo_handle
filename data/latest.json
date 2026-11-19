@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T19:18:45+05:30",
+  "generatedAt": "2026-11-19T19:45:56+05:30",
   "ipos": [
     {
       "id": "crystal-crop-protection",
@@ -8,7 +8,7 @@
       "priceMax": 272.0,
       "lotSize": 55,
       "minInvestment": 14960.0,
-      "overallSubscription": 1.48,
+      "overallSubscription": 3.08,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "high",
@@ -18,13 +18,13 @@
     },
     {
       "id": "foodlink-f-b-holdings-india",
-      "name": "Foodlink F&B Holdings (India)",
+      "name": "Foodlink F&B Holdings",
       "priceMax": 191.0,
       "lotSize": 78,
       "minInvestment": 14898.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -34,14 +34,15 @@
       "name": "Watrana Rentals",
       "priceMax": 245.0,
       "lotSize": 600.0,
-      "minInvestment": 147000.0,
+      "minInvestment": 294000.0,
+      "overallSubscription": 3.78,
       "segment": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "c8eb30a0dff1956105ccd3f8d121acacf90eb693a6a52a2b279960f6a8e9b821"
+  "contentHash": "66768e97df82af7b1e494bb8c4b9b41119f10074de950c04604554779d1d0cb7"
 }

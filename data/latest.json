@@ -1,31 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T14:46:01+05:30",
+  "generatedAt": "2026-11-20T20:15:37+05:30",
   "ipos": [
-    {
-      "id": "crystal-crop-protection",
-      "name": "Crystal Crop Protection",
-      "priceMax": 272.0,
-      "lotSize": 55,
-      "minInvestment": 14960.0,
-      "overallSubscription": 8.01,
-      "segment": "Mainboard",
-      "status": "Open",
-      "confidence": "high",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
     {
       "id": "mahanadi-coalfields",
       "name": "Mahanadi Coalfields",
       "priceMax": 136.0,
       "lotSize": 110,
       "minInvestment": 14960.0,
-      "overallSubscription": 0.46,
+      "overallSubscription": 0.49,
       "segment": "Mainboard",
       "status": "Open",
       "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "monomark-engineering",
+      "name": "Monomark Engineering",
+      "priceMax": 0.0,
+      "segment": "Mainboard",
+      "status": "Upcoming",
+      "confidence": "low",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,7 +33,7 @@
       "priceMax": 245.0,
       "lotSize": 600.0,
       "minInvestment": 294000.0,
-      "overallSubscription": 8.84,
+      "overallSubscription": 11.98,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -45,5 +42,5 @@
       "history": []
     }
   ],
-  "contentHash": "77f387cec252b41a6b1d9d9f0ec9cc05b115db72b22346fd52a698b8b40c6691"
+  "contentHash": "05eca8f59cabb269a29610fa085f0182ee3a5aa8a657a3d21f07515706750a9b"
 }

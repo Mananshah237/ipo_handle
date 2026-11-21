@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T20:15:37+05:30",
+  "generatedAt": "2026-11-21T14:46:02+05:30",
   "ipos": [
     {
       "id": "mahanadi-coalfields",
@@ -22,7 +22,7 @@
       "priceMax": 0.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "low",
+      "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -42,5 +42,5 @@
       "history": []
     }
   ],
-  "contentHash": "05eca8f59cabb269a29610fa085f0182ee3a5aa8a657a3d21f07515706750a9b"
+  "contentHash": "888b8d06de465a4f57ae0cce308198f2a1878243ad09d954b02cf2fe6621ce45"
 }

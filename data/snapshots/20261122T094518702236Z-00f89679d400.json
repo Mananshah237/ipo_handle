@@ -1,0 +1,166 @@
+{
+ "generated_at": "2026-11-22T14:15:44+05:30",
+ "updated_at": "2026-11-22T14:15:44+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 12,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": true
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "gmpwatch",
+   "name": "GMP Watch",
+   "url": "https://www.gmpwatch.in/",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": true
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": true
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipotrack",
+   "name": "IPO Track",
+   "url": "https://ipotrack.in/",
+   "responded": true
+  },
+  {
+   "key": "indiaipo",
+   "name": "India IPO",
+   "url": "https://www.indiaipo.in/",
+   "responded": true
+  },
+  {
+   "key": "niftytrader",
+   "name": "NiftyTrader",
+   "url": "https://www.niftytrader.in/ipo/gmp",
+   "responded": true
+  },
+  {
+   "key": "finowings",
+   "name": "Finowings",
+   "url": "https://www.finowings.com/IPO/live-ipo-gmp.php",
+   "responded": true
+  },
+  {
+   "key": "iposathi",
+   "name": "IPO Sathi",
+   "url": "https://www.iposathi.com/ipo/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "Watrana Rentals",
+   "slug": "watrana-rentals-ltd",
+   "url": "https://gmptoday.in/ipo/watrana-rentals-ltd/",
+   "type": "SME",
+   "status": "Open",
+   "bidding": "19\u201323 Nov",
+   "open_date": "2026-11-19",
+   "close_date": "2026-11-23",
+   "allotment_date": "24 Nov",
+   "listing_date": "27 Nov",
+   "price_band": 245.0,
+   "lot_size": 600.0,
+   "min_investment": 294000.0,
+   "issue_size": "\u20b9120.10 Cr",
+   "gmp_median": 65.0,
+   "gmp_min": 45.0,
+   "gmp_max": 67.0,
+   "gmp_sources": 13,
+   "confidence": "medium",
+   "score": 67,
+   "est_listing_gain_pct": 26.53,
+   "subscription": 11.98
+  },
+  {
+   "name": "Mahanadi Coalfields",
+   "slug": "mahanadi-coalfields",
+   "url": "https://gmptoday.in/ipo/mahanadi-coalfields/",
+   "type": "Mainboard",
+   "status": "Open",
+   "bidding": "19\u201323 Nov",
+   "open_date": "2026-11-19",
+   "close_date": "2026-11-23",
+   "allotment_date": "24 Nov",
+   "listing_date": "27 Nov",
+   "price_band": 136.0,
+   "lot_size": 110,
+   "min_investment": 14960.0,
+   "issue_size": "\u20b98,981.12 Cr",
+   "gmp_median": 0.75,
+   "gmp_min": 0.0,
+   "gmp_max": 2.0,
+   "gmp_sources": 13,
+   "confidence": "medium",
+   "score": 51,
+   "est_listing_gain_pct": 0.55,
+   "subscription": 0.49
+  },
+  {
+   "name": "Shree Siddhivinayak Greentech Industries",
+   "slug": "shree-siddhivinayak-greentech-industries",
+   "url": "https://gmptoday.in/ipo/shree-siddhivinayak-greentech-industries/",
+   "type": "SME",
+   "status": "Upcoming",
+   "bidding": "25\u201327 Nov",
+   "open_date": "2026-11-25",
+   "close_date": "2026-11-27",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 142.0,
+   "lot_size": 1000.0,
+   "min_investment": 142000.0,
+   "issue_size": "\u20b993.66 Cr",
+   "gmp_median": 0.0,
+   "gmp_min": 0.0,
+   "gmp_max": 0.0,
+   "gmp_sources": 5,
+   "confidence": "medium",
+   "score": 56,
+   "est_listing_gain_pct": null,
+   "subscription": null
+  }
+ ]
+}

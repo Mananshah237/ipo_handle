@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T14:46:02+05:30",
+  "generatedAt": "2026-11-22T14:15:44+05:30",
   "ipos": [
     {
       "id": "mahanadi-coalfields",
@@ -17,10 +17,12 @@
       "history": []
     },
     {
-      "id": "monomark-engineering",
-      "name": "Monomark Engineering",
-      "priceMax": 0.0,
-      "segment": "Mainboard",
+      "id": "shree-siddhivinayak-greentech-industries",
+      "name": "Shree Siddhivinayak Greentech Industries",
+      "priceMax": 142.0,
+      "lotSize": 1000.0,
+      "minInvestment": 142000.0,
+      "segment": "SME",
       "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
@@ -42,5 +44,5 @@
       "history": []
     }
   ],
-  "contentHash": "888b8d06de465a4f57ae0cce308198f2a1878243ad09d954b02cf2fe6621ce45"
+  "contentHash": "00f89679d400193ae4e72bb8b5412aa49ee286b3a39b97eb990e171b5a32c397"
 }

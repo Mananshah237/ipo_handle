@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T14:15:44+05:30",
+  "generatedAt": "2026-11-23T15:52:26+05:30",
   "ipos": [
     {
-      "id": "mahanadi-coalfields",
-      "name": "Mahanadi Coalfields",
-      "priceMax": 136.0,
-      "lotSize": 110,
-      "minInvestment": 14960.0,
-      "overallSubscription": 0.49,
-      "segment": "Mainboard",
-      "status": "Open",
+      "id": "a-j-packaging",
+      "name": "A J Packaging",
+      "priceMax": 175.0,
+      "lotSize": 800,
+      "minInvestment": 140000.0,
+      "segment": "SME",
+      "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
       "trackers": [],
       "history": []
     },
     {
-      "id": "shree-siddhivinayak-greentech-industries",
-      "name": "Shree Siddhivinayak Greentech Industries",
-      "priceMax": 142.0,
-      "lotSize": 1000.0,
-      "minInvestment": 142000.0,
-      "segment": "SME",
+      "id": "foodlink-f-b-holdings-india",
+      "name": "Foodlink F&B Holdings",
+      "priceMax": 181.0,
+      "lotSize": 78,
+      "minInvestment": 14118.0,
+      "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "medium",
       "subscription": {},
@@ -35,7 +34,7 @@
       "priceMax": 245.0,
       "lotSize": 600.0,
       "minInvestment": 294000.0,
-      "overallSubscription": 11.98,
+      "overallSubscription": 146.38,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -44,5 +43,5 @@
       "history": []
     }
   ],
-  "contentHash": "00f89679d400193ae4e72bb8b5412aa49ee286b3a39b97eb990e171b5a32c397"
+  "contentHash": "1e5234bb29455efa8f9b25063d5a6b1a365f1afbce396975783757ae7b38ffe5"
 }

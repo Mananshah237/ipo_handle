@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T20:15:38+05:30",
+  "generatedAt": "2026-11-24T17:46:07+05:30",
   "ipos": [
     {
       "id": "a-j-packaging",
@@ -36,11 +36,11 @@
       "minInvestment": 14181.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "6bf9e19b323a136543500790a745214f4fd9b07ab9d287130b2808806881bb63"
+  "contentHash": "496c4691d7fd860eb4dea3323163d7c518f2037519327d8fb63358c53581d947"
 }

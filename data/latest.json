@@ -1,33 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T17:46:07+05:30",
+  "generatedAt": "2026-11-25T11:46:24+05:30",
   "ipos": [
-    {
-      "id": "a-j-packaging",
-      "name": "A J Packaging",
-      "priceMax": 175.0,
-      "lotSize": 800,
-      "minInvestment": 140000.0,
-      "segment": "SME",
-      "status": "Upcoming",
-      "confidence": "low",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
-    {
-      "id": "foodlink-f-b-holdings-india",
-      "name": "Foodlink F&B Holdings",
-      "priceMax": 191.0,
-      "lotSize": 78,
-      "minInvestment": 14898.0,
-      "segment": "Mainboard",
-      "status": "Upcoming",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
-    },
     {
       "id": "matangi-rubber",
       "name": "Matangi Rubber",
@@ -40,7 +14,34 @@
       "subscription": {},
       "trackers": [],
       "history": []
+    },
+    {
+      "id": "monomark-engineering",
+      "name": "Monomark Engineering",
+      "priceMax": 60.0,
+      "lotSize": 225,
+      "minInvestment": 13500.0,
+      "segment": "Mainboard",
+      "status": "Upcoming",
+      "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
+    {
+      "id": "shree-siddhivinayak-greentech-industries",
+      "name": "Shree Siddhivinayak Greentech Industries",
+      "priceMax": 142.0,
+      "lotSize": 1000.0,
+      "minInvestment": 284000.0,
+      "overallSubscription": 0.28,
+      "segment": "SME",
+      "status": "Open",
+      "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
     }
   ],
-  "contentHash": "496c4691d7fd860eb4dea3323163d7c518f2037519327d8fb63358c53581d947"
+  "contentHash": "258fdc48587cf027ed1238f28f23a4d768c20784e84e98e766767fa25457e487"
 }

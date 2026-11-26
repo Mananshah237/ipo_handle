@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T20:46:02+05:30",
+  "generatedAt": "2026-11-26T14:45:56+05:30",
   "ipos": [
     {
-      "id": "foodlink-f-b-holdings-india",
-      "name": "Foodlink F&B Holdings",
-      "priceMax": 191.0,
-      "lotSize": 78,
-      "minInvestment": 14898.0,
+      "id": "matangi-rubber",
+      "name": "Matangi Rubber",
+      "priceMax": 172.0,
+      "lotSize": 87,
+      "minInvestment": 14964.0,
       "segment": "Mainboard",
       "status": "Upcoming",
       "confidence": "medium",
@@ -34,7 +34,7 @@
       "priceMax": 142.0,
       "lotSize": 1000.0,
       "minInvestment": 284000.0,
-      "overallSubscription": 0.41,
+      "overallSubscription": 1.04,
       "segment": "SME",
       "status": "Open",
       "confidence": "medium",
@@ -43,5 +43,5 @@
       "history": []
     }
   ],
-  "contentHash": "313673c395edd7c7bdcd826fbf5bfb39bc2057162edc0a759157b0882ce33271"
+  "contentHash": "5cde6a8886e22d551c6f5b5b2aa913d60f94a1d22c7c2f1a624c46b6fd43ed87"
 }

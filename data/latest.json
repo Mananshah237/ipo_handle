@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T14:45:56+05:30",
+  "generatedAt": "2026-11-26T20:15:37+05:30",
   "ipos": [
+    {
+      "id": "a-j-packaging",
+      "name": "A J Packaging",
+      "priceMax": 180.0,
+      "lotSize": 800,
+      "minInvestment": 144000.0,
+      "segment": "SME",
+      "status": "Upcoming",
+      "confidence": "medium",
+      "subscription": {},
+      "trackers": [],
+      "history": []
+    },
     {
       "id": "matangi-rubber",
       "name": "Matangi Rubber",
@@ -27,21 +40,7 @@
       "subscription": {},
       "trackers": [],
       "history": []
-    },
-    {
-      "id": "shree-siddhivinayak-greentech-industries",
-      "name": "Shree Siddhivinayak Greentech Industries",
-      "priceMax": 142.0,
-      "lotSize": 1000.0,
-      "minInvestment": 284000.0,
-      "overallSubscription": 1.04,
-      "segment": "SME",
-      "status": "Open",
-      "confidence": "medium",
-      "subscription": {},
-      "trackers": [],
-      "history": []
     }
   ],
-  "contentHash": "5cde6a8886e22d551c6f5b5b2aa913d60f94a1d22c7c2f1a624c46b6fd43ed87"
+  "contentHash": "a0d8286587b39c366fb44bb0c6f704f101f5b9dae41de3ef1a2f563dd19e6191"
 }

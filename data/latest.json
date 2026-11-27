@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T20:15:37+05:30",
+  "generatedAt": "2026-11-27T17:23:46+05:30",
   "ipos": [
     {
       "id": "a-j-packaging",
@@ -10,7 +10,7 @@
       "minInvestment": 144000.0,
       "segment": "SME",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -23,7 +23,7 @@
       "minInvestment": 14964.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
@@ -36,11 +36,11 @@
       "minInvestment": 14625.0,
       "segment": "Mainboard",
       "status": "Upcoming",
-      "confidence": "medium",
+      "confidence": "high",
       "subscription": {},
       "trackers": [],
       "history": []
     }
   ],
-  "contentHash": "a0d8286587b39c366fb44bb0c6f704f101f5b9dae41de3ef1a2f563dd19e6191"
+  "contentHash": "7d8bec3df9e9f9326b1b3a1bc75b28b47a01799d0dff995cf09a60b2f56bbff6"
 }

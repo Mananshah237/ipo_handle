@@ -1,0 +1,166 @@
+{
+ "generated_at": "2026-11-27T17:23:46+05:30",
+ "updated_at": "2026-11-27T17:23:46+05:30",
+ "source": "https://gmptoday.in",
+ "docs": "https://gmptoday.in/api/",
+ "license": "CC-BY-4.0",
+ "attribution": "Data from gmptoday.in (https://gmptoday.in)",
+ "sample": true,
+ "n_ipos_in_sample": 3,
+ "n_ipos_tracked": 12,
+ "full_data": "https://gmptoday.in",
+ "trackers": [
+  {
+   "key": "ipowatch",
+   "name": "IPO Watch",
+   "url": "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/",
+   "responded": true
+  },
+  {
+   "key": "investorgain",
+   "name": "InvestorGain",
+   "url": "https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/8/2026/2026/0/all?search=",
+   "responded": true
+  },
+  {
+   "key": "gmpwatch",
+   "name": "GMP Watch",
+   "url": "https://www.gmpwatch.in/",
+   "responded": true
+  },
+  {
+   "key": "ipoji",
+   "name": "IPO Ji",
+   "url": "https://www.ipoji.com/ipo-gmp",
+   "responded": false
+  },
+  {
+   "key": "chanakya",
+   "name": "Chanakya Ni Pothi",
+   "url": "https://www.chanakyanipothi.com/ipo-gmp-today",
+   "responded": false
+  },
+  {
+   "key": "ipoindex",
+   "name": "IPO Index",
+   "url": "https://ipoindex.in/",
+   "responded": true
+  },
+  {
+   "key": "ipomarket",
+   "name": "IPO Market",
+   "url": "https://www.ipomarket.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipo360",
+   "name": "IPO 360",
+   "url": "https://www.ipo360.in/gmp",
+   "responded": true
+  },
+  {
+   "key": "ipotrack",
+   "name": "IPO Track",
+   "url": "https://ipotrack.in/",
+   "responded": true
+  },
+  {
+   "key": "indiaipo",
+   "name": "India IPO",
+   "url": "https://www.indiaipo.in/",
+   "responded": true
+  },
+  {
+   "key": "niftytrader",
+   "name": "NiftyTrader",
+   "url": "https://www.niftytrader.in/ipo/gmp",
+   "responded": true
+  },
+  {
+   "key": "finowings",
+   "name": "Finowings",
+   "url": "https://www.finowings.com/IPO/live-ipo-gmp.php",
+   "responded": false
+  },
+  {
+   "key": "iposathi",
+   "name": "IPO Sathi",
+   "url": "https://www.iposathi.com/ipo/gmp",
+   "responded": true
+  }
+ ],
+ "ipos": [
+  {
+   "name": "Monomark Engineering",
+   "slug": "monomark-engineering",
+   "url": "https://gmptoday.in/ipo/monomark-engineering/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "2\u20134 Dec",
+   "open_date": "2026-12-02",
+   "close_date": "2026-12-04",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 65.0,
+   "lot_size": 225,
+   "min_investment": 14625.0,
+   "issue_size": "\u20b9175.50 Cr",
+   "gmp_median": 20.0,
+   "gmp_min": 20.0,
+   "gmp_max": 24.0,
+   "gmp_sources": 9,
+   "confidence": "high",
+   "score": 78,
+   "est_listing_gain_pct": 30.77,
+   "subscription": null
+  },
+  {
+   "name": "Matangi Rubber",
+   "slug": "matangi-rubber",
+   "url": "https://gmptoday.in/ipo/matangi-rubber/",
+   "type": "Mainboard",
+   "status": "Upcoming",
+   "bidding": "1\u20133 Dec",
+   "open_date": "2026-12-01",
+   "close_date": "2026-12-03",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 172.0,
+   "lot_size": 87,
+   "min_investment": 14964.0,
+   "issue_size": "\u20b9125.16 Cr",
+   "gmp_median": 31.0,
+   "gmp_min": 25.5,
+   "gmp_max": 32.0,
+   "gmp_sources": 9,
+   "confidence": "high",
+   "score": 90,
+   "est_listing_gain_pct": 18.02,
+   "subscription": null
+  },
+  {
+   "name": "A J Packaging",
+   "slug": "a-j-packaging",
+   "url": "https://gmptoday.in/ipo/a-j-packaging/",
+   "type": "SME",
+   "status": "Upcoming",
+   "bidding": "1\u20133 Dec",
+   "open_date": "2026-12-01",
+   "close_date": "2026-12-03",
+   "allotment_date": null,
+   "listing_date": null,
+   "price_band": 180.0,
+   "lot_size": 800,
+   "min_investment": 144000.0,
+   "issue_size": "\u20b954 Cr",
+   "gmp_median": 24.0,
+   "gmp_min": 23.0,
+   "gmp_max": 24.0,
+   "gmp_sources": 8,
+   "confidence": "high",
+   "score": 86,
+   "est_listing_gain_pct": 13.33,
+   "subscription": null
+  }
+ ]
+}
